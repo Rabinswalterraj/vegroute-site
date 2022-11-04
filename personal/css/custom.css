@@ -1,0 +1,76 @@
+.round_card_container{
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.round_card_head img{
+    width: 130px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px solid #008938;
+}
+
+.round_card_content {
+    text-align: center;
+    padding-top: 12px;
+}
+.round_card_content p:nth-child(1){
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008938;
+}
+
+.round_card_content p:nth-child(2){
+    margin: 0;
+    font-weight: 400;
+}
+
+.round_investors_section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.round_investors_section:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.round_card_content p{
+    width: 200px;
+}
+.cus_heading{
+    margin-bottom: 15px;
+}
+.cus_heading h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    color: #328434;
+    font-weight: 700;
+
+}
+.cus_heading p{
+    font-weight: 500;
+    color: #414141;
+}
+@media only screen and (max-width: 600px) {
+    .round_investors_section{
+        
+        justify-content: center !important;
+
+    }
+  }
+  
+  
+@media only screen and (max-width: 1000px) {
+    .round_investors_section{
+        justify-content: center !important;
+
+    }
+  }
