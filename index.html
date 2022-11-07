@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -7,9 +8,11 @@
     <!-- Author -->
     <meta name="author" content="Yellow Bucket">
     <!-- description -->
-    <meta name="description" content="Description:India&#39;s favorite online delivery platform that offers freshly hand picked fruit, &amp; vegetables right at your doorsteps.Order Now,with free delivery.">
+    <meta name="description"
+        content="Description:India&#39;s favorite online delivery platform that offers freshly hand picked fruit, &amp; vegetables right at your doorsteps.Order Now,with free delivery.">
     <!-- keywords -->
-    <meta name="keywords" content="online fruits delivery, fruits and vegetables, online fruits delivery chennai , buy vegetables online, Veg Route, online fruits delivery coimbatore, online vegetable delivery chennai, online vegetable delivery Madurai,fruits home delivery.">
+    <meta name="keywords"
+        content="online fruits delivery, fruits and vegetables, online fruits delivery chennai , buy vegetables online, Veg Route, online fruits delivery coimbatore, online vegetable delivery chennai, online vegetable delivery Madurai,fruits home delivery.">
     <!-- Page Title -->
     <title>Veg Route</title>
     <!-- Favicon -->
@@ -24,1627 +27,1783 @@
     <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
     <link href="vendor/css/swiper.min.css" rel="stylesheet">
     <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Style Sheet -->
     <link href="personal/css/page-animation.css" rel="stylesheet">
     <link href="personal/css/style.css" rel="stylesheet">
     <link href="personal/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <style>
-.heading-box{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-}
-@media only screen and (min-width: 40em) {
-	 .modal-overlay {
-		 display: flex;
-		 align-items: center;
-		 justify-content: center;
-		 position: fixed;
-		 top: 0;
-		 left: 0;
-		 width: 100%;
-		 height: 100%;
-		 z-index: 5;
-		 background-color: rgba(0, 0, 0, 0.6);
-		 opacity: 0;
-		 visibility: hidden;
-		 backface-visibility: hidden;
-		 transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-	}
-	 .modal-overlay.active {
-		 opacity: 1;
-		 visibility: visible;
-	}
-}
-/** * Modal */
- .modal {
-	 display: flex;
-	 align-items: center;
-	 justify-content: center;
-	 position: relative;
-	 margin: 0 auto;
-	 background-color: #fff;
-	 width: 70%;
-	 height:80%;
-	 max-width: 75rem;
-	 min-height: 20rem;
-	 padding: 1rem;
-	 border-radius: 3px;
-	 opacity: 0;
-	 overflow-y: auto;
-	 visibility: hidden;
-	 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	 backface-visibility: hidden;
-	 transform: scale(1.2);
-	 transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-}
- .modal .close-modal {
-	 position: absolute;
-	 cursor: pointer;
-	 top: 5px;
-	 right: 15px;
-	 opacity: 0;
-	 backface-visibility: hidden;
-	 transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-	 transition-delay: 0.3s;
-}
- .modal .close-modal svg {
-	 width: 1.75em;
-	 height: 1.75em;
-}
- .modal .modal-content {
-	 opacity: 0;
-	 backface-visibility: hidden;
-	 transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-	 transition-delay: 0.3s;
-}
- .modal.active {
-	 visibility: visible;
-	 opacity: 1;
-	 transform: scale(1);
-}
- .modal.active .modal-content {
-	 opacity: 1;
-}
- .modal.active .close-modal {
-	 transform: translateY(10px);
-	 opacity: 1;
-}
-/** * Mobile styling */
- @media only screen and (max-width: 39.9375em) {
-	 h1 {
-		 font-size: 1.5rem;
-	}
-	 .modal {
-		 position: fixed;
-		 top: 0;
-		 left: 0;
-		 width: 100%;
-		 height: 100%;
-		 -webkit-overflow-scrolling: touch;
-		 border-radius: 0;
-		 transform: scale(1.1);
-		 padding: 0 !important;
-	}
-	 .close-modal {
-		 right: 20px !important;
-	}
-}
- 
- .wrapper{
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-}
- .card{
-    max-width: 300px;
-     min-height: 250px;
-     background: #02b875;
-     padding: 30px;
-      border-radius: 3px;
-     box-sizing: border-box;
-     color: #FFF;
-     margin:20px;
-      box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
-}
- .card:nth-child(2){
-    background: #35ab38;
-}
- .card:last-child{
-    background: #35ab38;
-}
- .card-title{
-     margin-top: 0;
-     font-size: 16px;
-     font-weight: 600;
-     letter-spacing: 1.2px;
-     text-align:left;
-     color:white;
-}
- .card-content{
-     font-size: 14px;
-     letter-spacing: 0.5px;
-     line-height: 1.5;
-     text-align:left;
-     margin-left:15px;
-}
- .card-btn{
-     all: unset;
-     display: block;
-     margin-left: auto;
-     border: 2px solid #FFF;
-     padding: 10px 15px;
-     border-radius: 25px;
-     font-size: 10px;
-     font-weight: 600;
-     transition: all 0.5s;
-     cursor: pointer;
-     letter-spacing: 1.2px;
-}
- .card-btn:hover{
-    color:#02b875;
-    background: #FFF;
-}
- .card:nth-child(2) .card-btn:hover{
-    color:#4181ee;
-    background: #FFF;
-}
- .card:last-child .card-btn:hover{
-    color:#673ab7;
-     background: #FFF;
-}
-
-body{
-    font-family: poppins,sans-serif;
-}
-/*#ourinvestors{*/
-/*    min-height:120vh !important;*/
-/*}*/
-.site-main-menu{
-    height:80vh;
-    overflow-y:scroll;
-    z-index:-1;
-}
-.link_container{
-    margin-top: 20px;
-    display:flex;
-    justify-content: flex-start;
-}
-.people_container{
-    margin-top:50px;
-    display: flex;
-    align-items: center;
-}
-.people_container h6{
-    font-weight: 800;
-    text-align: left;
-    font-size: 13px;
-    margin-left: 22px;
-    margin-bottom: 0px;
-}
-.people_list{
-    display:flex;
-}
-.people_list img{
-    margin-right: -15px;
-    width: 30px !important;
-}
-
-.client-box .client-img{
-    aspect-ratio:1/1;
-}
-.counters img{
-    width: 85px;
-    background: #35ab39;
-    padding: 20px;
-    border-radius: 50%;
-    
-}
-.counters img:hover{
-    background: #525252 !important;
-    padding: 20px !important;
-    border-radius: 25px !important;
-    color: white !important;
-    transition: 500ms;
-}
-.client-box{
-    height: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top:50px;
-}
-
-
-.content ol {
-  margin:0 0 1.5em;
-  padding:0;
-  counter-reset:item;
-}
- 
-.content ol>li {
-  margin:0;
-  padding:0 0 0 2em;
-  text-indent:-2em;
-  list-style-type:none;
-  counter-increment:item;
-}
- 
-.contet ol>li:before {
-  display:inline-block;
-  width:1.5em;
-  padding-right:0.5em;
-  font-weight:bold;
-  color:green;
-  text-align:right;
-  content:counter(item) ".";
-}
-#style-2{
-    height: 75vh;
-    overflow-y: scroll;
-}
-
-.blink_me {
-  animation: blinker 3s linear infinite;
-}
-
-@keyframes blinker {  
-  50% { opacity: 0; }
-}
-
-/*#style-2::-webkit-scrollbar-track*/
-/*{*/
-/*	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
-/*	border-radius: 4px;*/
-/*	background-color: #F5F5F5 !important;*/
-/*}*/
-
-/*#style-2::-webkit-scrollbar*/
-/*{*/
-/*	width: 6px;*/
-/*	background-color: #F5F5F5 !important;*/
-/*}*/
-
-/*#style-2::-webkit-scrollbar-thumb*/
-/*{*/
-/*	border-radius: 4px;*/
-/*	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
-/*	background-color: #35ab39 !important;*/
-/*}*/
-
-
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 0px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-
-.truck{
-    background: #51b499 !important;
-}
-.detailed-view{
-    padding: 6.5px;
-    background: #35ab39;
-    color: white;
-    border-radius: 5px;
-    transition:300ms;
-}
-.detailed-view:hover{
-    padding: 6.5px;
-    background: #8a8a8a;
-    color: white;
-    border-radius: 5px;
-    transition:300ms;
-}
-.optional-btn{
-   width: 200px !important;
-    text-align: center;
-    font-weight: 900;
-    color: white;
-    background: #35ab39;
-    padding-top: 14px;
-    padding-left: 18px;
-    font-size: 25px;
-    padding-right: 18px;
-    border-radius: 50px;
-    padding-bottom: 15px;
-    box-shadow: 0px 6px 12px -9px black;
-
-}
-    .whyvrp{
-    color: #35ab39;
-    font-weight: bold;
-    }
-    
-.counters {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.counters h6{
-    text-align:center;
-    width: 165px;
-}
-.address-item{
+    .heading-box {
         display: flex;
         flex-direction: column;
-}
-.vrbn:nth-child(3){
-  font-weight:800;
-}
-.heading-area h3{
-    margin-left:30px;
-    /*white-space:nowrap;*/
-}
-.cus-head h3{
-    display:flex;
-    align-items: flex-end;
-}
+        align-items: flex-start;
 
-.tp-content-wrapper{
-    z-index: 9;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background: #35ab39;
-   
     }
-    .tp-content-wrapper a:hover{
-        color:white;
+
+    @media only screen and (min-width: 40em) {
+        .modal-overlay {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+            background-color: rgba(0, 0, 0, 0.6);
+            opacity: 0;
+            visibility: hidden;
+            backface-visibility: hidden;
+            transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    /** * Modal */
+    .modal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        background-color: #fff;
+        width: 70%;
+        height: 80%;
+        max-width: 75rem;
+        min-height: 20rem;
+        padding: 1rem;
+        border-radius: 3px;
+        opacity: 0;
+        overflow-y: auto;
+        visibility: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        backface-visibility: hidden;
+        transform: scale(1.2);
+        transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    }
+
+    .modal .close-modal {
+        position: absolute;
+        cursor: pointer;
+        top: 5px;
+        right: 15px;
+        opacity: 0;
+        backface-visibility: hidden;
+        transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        transition-delay: 0.3s;
+    }
+
+    .modal .close-modal svg {
+        width: 1.75em;
+        height: 1.75em;
+    }
+
+    .modal .modal-content {
+        opacity: 0;
+        backface-visibility: hidden;
+        transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        transition-delay: 0.3s;
+    }
+
+    .modal.active {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .modal.active .modal-content {
+        opacity: 1;
+    }
+
+    .modal.active .close-modal {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+
+    /** * Mobile styling */
+    @media only screen and (max-width: 39.9375em) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-overflow-scrolling: touch;
+            border-radius: 0;
+            transform: scale(1.1);
+            padding: 0 !important;
+        }
+
+        .close-modal {
+            right: 20px !important;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    body {
+        font-family: poppins, sans-serif;
+    }
+
+    /*#ourinvestors{*/
+    /*    min-height:120vh !important;*/
+    /*}*/
+    .site-main-menu {
+        height: 80vh;
+        overflow-y: scroll;
+        z-index: -1;
+    }
+
+    .link_container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .people_container {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .people_container h6 {
+        font-weight: 800;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 22px;
+        margin-bottom: 0px;
+    }
+
+    .people_list {
+        display: flex;
+    }
+
+    .people_list img {
+        margin-right: -15px;
+        width: 30px !important;
+    }
+
+    .client-box .client-img {
+        aspect-ratio: 1/1;
+    }
+
+    .counters img {
+        width: 85px;
+        background: #35ab39;
+        padding: 20px;
+        border-radius: 50%;
+
+    }
+
+    .counters img:hover {
+        background: #525252 !important;
+        padding: 20px !important;
+        border-radius: 25px !important;
+        color: white !important;
+        transition: 500ms;
+    }
+
+    .client-box {
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+
+    .content ol {
+        margin: 0 0 1.5em;
+        padding: 0;
+        counter-reset: item;
+    }
+
+    .content ol>li {
+        margin: 0;
+        padding: 0 0 0 2em;
+        text-indent: -2em;
+        list-style-type: none;
+        counter-increment: item;
+    }
+
+    .contet ol>li:before {
+        display: inline-block;
+        width: 1.5em;
+        padding-right: 0.5em;
+        font-weight: bold;
+        color: green;
+        text-align: right;
+        content: counter(item) ".";
+    }
+
+    #style-2 {
+        height: 75vh;
+        overflow-y: scroll;
+    }
+
+    .blink_me {
+        animation: blinker 3s linear infinite;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    /*#style-2::-webkit-scrollbar-track*/
+    /*{*/
+    /*	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    /*	border-radius: 4px;*/
+    /*	background-color: #F5F5F5 !important;*/
+    /*}*/
+
+    /*#style-2::-webkit-scrollbar*/
+    /*{*/
+    /*	width: 6px;*/
+    /*	background-color: #F5F5F5 !important;*/
+    /*}*/
+
+    /*#style-2::-webkit-scrollbar-thumb*/
+    /*{*/
+    /*	border-radius: 4px;*/
+    /*	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+    /*	background-color: #35ab39 !important;*/
+    /*}*/
+
+
+
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .truck {
+        background: #51b499 !important;
+    }
+
+    .detailed-view {
+        padding: 6.5px;
+        background: #35ab39;
+        color: white;
+        border-radius: 5px;
+        transition: 300ms;
+    }
+
+    .detailed-view:hover {
+        padding: 6.5px;
+        background: #8a8a8a;
+        color: white;
+        border-radius: 5px;
+        transition: 300ms;
+    }
+
+    .optional-btn {
+        width: 200px !important;
+        text-align: center;
+        font-weight: 900;
+        color: white;
+        background: #35ab39;
+        padding-top: 14px;
+        padding-left: 18px;
+        font-size: 25px;
+        padding-right: 18px;
+        border-radius: 50px;
+        padding-bottom: 15px;
+        box-shadow: 0px 6px 12px -9px black;
+
+    }
+
+    .whyvrp {
+        color: #35ab39;
+        font-weight: bold;
+    }
+
+    .counters {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .counters h6 {
+        text-align: center;
+        width: 165px;
+    }
+
+    .address-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vrbn:nth-child(3) {
+        font-weight: 800;
+    }
+
+    .heading-area h3 {
+        margin-left: 30px;
+        /*white-space:nowrap;*/
+    }
+
+    .cus-head h3 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .tp-content-wrapper {
+        z-index: 9;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background: #35ab39;
+
+    }
+
+    .tp-content-wrapper a:hover {
+        color: white;
         text-decoration: underline;
     }
-    .tp-content-wrapper p{
+
+    .tp-content-wrapper p {
         padding: 5px 10px;
         color: white;
         font-weight: 600;
     }
-    @media screen and (min-width: 0px) and (max-width: 700px) { 
-        .hide-mobile{
-            display:none !important;
+
+    @media screen and (min-width: 0px) and (max-width: 700px) {
+        .hide-mobile {
+            display: none !important;
         }
-        .md-justify{
-            text-align:center;
+
+        .md-justify {
+            text-align: center;
         }
-        .m-logo{
-            max-width:55px !important;
+
+        .m-logo {
+            max-width: 55px !important;
         }
-        .mobmar{
-            margin-top:-70px;
+
+        .mobmar {
+            margin-top: -70px;
         }
-        .mobimg{
-                background-color: white;
-                border-radius: 0px;
-                margin-top: -25px;
+
+        .mobimg {
+            background-color: white;
+            border-radius: 0px;
+            margin-top: -25px;
         }
-        .tp-content-wrapper p{
-        
-        font-size: 12px !important;
+
+        .tp-content-wrapper p {
+
+            font-size: 12px !important;
         }
-        .tp-content-wrapper{
-            top:70px !important;
+
+        .tp-content-wrapper {
+            top: 70px !important;
         }
     }
-    @media screen and (min-width: 701px) and (max-width: 5700px) { 
-        .hide-desktop{
-            display:none !important;
+
+    @media screen and (min-width: 701px) and (max-width: 5700px) {
+        .hide-desktop {
+            display: none !important;
         }
     }
-    
 </style>
+
 <body class="signle-layout">
 
-<!-- Preloader -->
-<div class="preloader">
-    <div class="centrize full-width">
-        <div class="vertical-center">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="centrize full-width">
+            <div class="vertical-center">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Preloader End -->
+    <!-- Preloader End -->
 
-<!-- Header -->
-<header class="header-left" style="z-index:10000000000;">
+    <!-- Header -->
+    <header class="header-left" style="z-index:10000000000;">
 
-    <!--Logo-->
-    <a class="logo pt-trigger" data-animation="58" data-goto="1" href="#home">
-        <h1 class="logo-text"><img src="gallery/vlogo-white.png" alt="logo" class="m-logo"></h1>
-    </a>
-    <h3 class="hide-desktop" style="font-weight: 700;margin-top:10px;;"><span style="color: #35ab39;">VEG</span>ROUTE</h3>
-    <!--Hamburger-->
-    <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </a>
-    <!-- Navigation & Social buttons -->
-    <div class="site-nav">
+        <!--Logo-->
+        <a class="logo pt-trigger" data-animation="58" data-goto="1" href="#home">
+            <h1 class="logo-text"><img src="gallery/vlogo-white.png" alt="logo" class="m-logo"></h1>
+        </a>
+        <h3 class="hide-desktop" style="font-weight: 700;margin-top:10px;;"><span
+                style="color: #35ab39;">VEG</span>ROUTE</h3>
+        <!--Hamburger-->
+        <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <!-- Navigation & Social buttons -->
+        <div class="site-nav">
 
-        <!-- Main menu -->
-        <ul class="site-main-menu alt-font" id="nav" >
-            <li><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
-                <a class="pt-trigger" data-animation="58" data-goto="1" href="#home">
-                    <i class="lni-home"></i>
-                    <span>Home</span>
-                </a>
-            </li>
-            <!-- <li>
+            <!-- Main menu -->
+            <ul class="site-main-menu alt-font" id="nav">
+                <li>
+                    <!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+                    <a class="pt-trigger" data-animation="58" data-goto="1" href="#home">
+                        <i class="lni-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <!-- <li>
                 <a class="pt-trigger" data-animation="58"  data-goto="1"  href="https://eshopping.vegroute.com/">
                     <i class="lni-cart"></i>
                     <span>Shop</span>
                 </a>
             </li> -->
-            <!--<li>-->
-            <!--    <a class="pt-trigger" data-animation="65" data-goto="1" href="https://eshopping.vegroute.com/blog-cat">-->
-            <!--        <i class="lni-bubble"></i>-->
-            <!--        <span>Blog</span>-->
-            <!--    </a>-->
-            <!--</li>-->
-            <li>
-                <a class="pt-trigger" data-animation="59" data-goto="2" href="#about">
-                    <i class="lni-user"></i>
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="57" data-goto="5" href="#whatwedo">
-                    <i class="lni-customer"></i>
-                    <span>What We Do</span></a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="61" data-goto="3" href="#services">
-                    <i class="lni-target"></i>
-                    <span>Initiatives</span></a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="65" data-goto="8" href="#whyvr">
-                    <i class="lni-handshake"></i>
-                    <span>Why VegRoute</span></a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="58" data-goto="4" href="#blogs">
-                    <i class="lni-bubble"></i>
-                    <span>Blogs</span>
-                </a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="52" data-goto="6" href="#clients">
-                    <i class="lni-emoji-smile"></i>
-                    <span>What Customer Says</span>
-                </a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="65" data-goto="1" href="https://careers.vegroute.com/jobs">
-                    <i class="lni-briefcase"></i>
-                    <span>Careers</span>
-                </a>
-            </li>
-             <li>
-                <a class="pt-trigger" data-animation="65" data-goto="11" href="#ourinvestors">
-                    <i class="lni-coin"></i>
-                    <span>Our Investors</span>
-                </a>
-            </li>
-            <!-- <li>-->
-            <!--    <a class="pt-trigger" data-animation="65" data-goto="1" href="https://eshopping.vegroute.com/Home/team">-->
-            <!--        <i class="lni-user"></i>-->
-            <!--        <span>Our Teams</span>-->
-            <!--    </a>-->
-            <!--</li>-->
-            <li>
-                <a class="pt-trigger" data-animation="65" data-goto="7" href="#contact">
-                    <i class="lni-phone"></i>
-                    <span>Contact Us</span>
-                </a>
-            </li>
-            <li>
-                <a class="pt-trigger" data-animation="65" data-goto="1" href="https://eshopping.vegroute.com/rpolicy">
-                    <i class="lni-licencse"></i>
-                    <span>Privacy Policy</span>
-                </a>
-            </li>
-            
-            
-           
-        </ul>
-        <!-- /Main menu -->
+                <!--<li>-->
+                <!--    <a class="pt-trigger" data-animation="65" data-goto="1" href="https://eshopping.vegroute.com/blog-cat">-->
+                <!--        <i class="lni-bubble"></i>-->
+                <!--        <span>Blog</span>-->
+                <!--    </a>-->
+                <!--</li>-->
+                <li>
+                    <a class="pt-trigger" data-animation="59" data-goto="2" href="#about">
+                        <i class="lni-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="57" data-goto="5" href="#whatwedo">
+                        <i class="lni-customer"></i>
+                        <span>What We Do</span></a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="61" data-goto="3" href="#services">
+                        <i class="lni-target"></i>
+                        <span>Initiatives</span></a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="65" data-goto="8" href="#whyvr">
+                        <i class="lni-handshake"></i>
+                        <span>Why VegRoute</span></a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="58" data-goto="4" href="#blogs">
+                        <i class="lni-bubble"></i>
+                        <span>Blogs</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="52" data-goto="6" href="#clients">
+                        <i class="lni-emoji-smile"></i>
+                        <span>What Customer Says</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="65" data-goto="1" href="https://careers.vegroute.com/jobs">
+                        <i class="lni-briefcase"></i>
+                        <span>Careers</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="65" data-goto="11" href="#ourinvestors">
+                        <i class="lni-coin"></i>
+                        <span>Our Investors</span>
+                    </a>
+                </li>
+                <!-- <li>-->
+                <!--    <a class="pt-trigger" data-animation="65" data-goto="1" href="https://eshopping.vegroute.com/Home/team">-->
+                <!--        <i class="lni-user"></i>-->
+                <!--        <span>Our Teams</span>-->
+                <!--    </a>-->
+                <!--</li>-->
+                <li>
+                    <a class="pt-trigger" data-animation="65" data-goto="7" href="#contact">
+                        <i class="lni-phone"></i>
+                        <span>Contact Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="pt-trigger" data-animation="65" data-goto="1"
+                        href="https://eshopping.vegroute.com/rpolicy">
+                        <i class="lni-licencse"></i>
+                        <span>Privacy Policy</span>
+                    </a>
+                </li>
 
-    </div>
 
-</header>
-<!-- Header End -->
 
-<!-- Site Main -->
-<div class="main-left" id="main">
-    <!-- Top Information Start -->
-    <div class="tp-content-wrapper blink_me">
-    <p> <i class="lni-invest-monitor"></i> Funding Alert: VegRoute has raised USD 1.1 M in Seed round. <a href="#" hidden>Read More</a></p>
-    </div>
-    <!-- Top Information End -->
+            </ul>
+            <!-- /Main menu -->
 
-    <!-- Page changer wrapper -->
-    <div class="pt-wrapper">
-        <!-- Subpages -->
-        <div class="subpages">
+        </div>
 
-            <!-- Home -->
-            <section id="home" class="pt-page pt-page-1" data-id="home">
-                <div class="container slider-container">
-                    <div class="row align-items-lg-center">
+    </header>
+    <!-- Header End -->
 
-                        <!-- Image Area -->
-                        <div class="col-lg-7 order-lg-2">
-                            <div class="slider-image mobimg">
-                                <!--<img src="personal/img/banner.png" alt="girl">-->
-                                <img src="gallery/home-img.png" alt="girl">
+    <!-- Site Main -->
+    <div class="main-left" id="main">
+        <!-- Top Information Start -->
+        <div class="tp-content-wrapper blink_me">
+            <p> <i class="lni-invest-monitor"></i> Funding Alert: VegRoute has raised USD 1.1 M in Seed round. <a
+                    href="#" hidden>Read More</a></p>
+        </div>
+        <!-- Top Information End -->
+
+        <!-- Page changer wrapper -->
+        <div class="pt-wrapper">
+            <!-- Subpages -->
+            <div class="subpages">
+
+                <!-- Home -->
+                <section id="home" class="pt-page pt-page-1" data-id="home">
+                    <div class="container slider-container">
+                        <div class="row align-items-lg-center">
+
+                            <!-- Image Area -->
+                            <div class="col-lg-7 order-lg-2">
+                                <div class="slider-image mobimg">
+                                    <!--<img src="personal/img/banner.png" alt="girl">-->
+                                    <img src="gallery/home-img.png" alt="girl">
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- Text Area -->
-                        <div class="col-lg-5 wow fadeInRight mobmar">
-                            <!-- Box Area -->
-                            <div class="heading-box text-center">
-                                <!--<img src="personal/img/logo-big3.png" alt="logo-big" style="max-width:60%;">-->
-                                <img src="gallery/logo-green.png" alt="logo-big" style="max-width:60%;">
-                                <!-- <h2><span class="main-color">Veg</span> Route</h2> -->
-<!--                                <h5 style="margin-top:20px;">We are building the most efficient <span class="main-color" style="font-weight: bold;">AGRI TECH</span><br><span class="main-color" style="font-weight: bold;">B2C</span> Fresh Produce Supply Chain Connecting -->
-<!--farmers and consumers.</h5>-->
-                                    <h4 style="margin-top:20px; font-weight:800; text-align:left; line-height: 2.4rem;">Delivering FRESH PRODUCES <br>directly from farms to <br> your doorstep </h4>
-                                    <h5 style="margin-top:20px; text-align:left; font-weight:300; opacity:.5; line-height: 1.9rem;">Hand-picked vegetables, fruits & daily essential groceries are available now</h5>
-                                    
+                            <!-- Text Area -->
+                            <div class="col-lg-5 wow fadeInRight mobmar">
+                                <!-- Box Area -->
+                                <div class="heading-box text-center">
+                                    <!--<img src="personal/img/logo-big3.png" alt="logo-big" style="max-width:60%;">-->
+                                    <img src="gallery/logo-green.png" alt="logo-big" style="max-width:60%;">
+                                    <!-- <h2><span class="main-color">Veg</span> Route</h2> -->
+                                    <!--                                <h5 style="margin-top:20px;">We are building the most efficient <span class="main-color" style="font-weight: bold;">AGRI TECH</span><br><span class="main-color" style="font-weight: bold;">B2C</span> Fresh Produce Supply Chain Connecting -->
+                                    <!--farmers and consumers.</h5>-->
+                                    <h4 style="margin-top:20px; font-weight:800; text-align:left; line-height: 2.4rem;">
+                                        Delivering <span class="typer" data-colors="#008938" id="main"
+                                            data-words="fruits,vegetables,dairy,snacks" data-delay="100"
+                                            data-deleteDelay="1000"></span> <br>directly from farms to <br> your
+                                        doorstep </h4>
+                                    <h5
+                                        style="margin-top:20px; text-align:left; font-weight:300; opacity:.5; line-height: 1.9rem;">
+                                        Hand-picked vegetables, fruits & daily essential groceries are available now
+                                    </h5>
+
                                     <!--<h5 style="margin-top:20px; font-weight:800">Freshness Simplified!</h5>-->
-                                    <h5 style="margin-top:20px; font-weight:800; text-align:left">Download our App on</h5>
-                                <div class="link_container">
-                                <img onclick="AppRedirect('android')" src="personal/img/playstore.png" style="width:25%;cursor:pointer">
-                                <img onclick="AppRedirect('ios')" src="personal/img/appstore.png" style="width:25%; cursor:pointer">
-                                </div>
-                                
-                                <div class="people_container">
-                                <div class="people_list">
-                                     <img  src="personal/img/avatar.png">
-                                     <img  src="personal/img/avatar.png">
-                                     <img  src="personal/img/avatar.png">
-
-                                </div>
-                                <h6>Trusted by 2,50,000+ customers in chennai</h6>
-                            </div>
-                                <!-- <a href="javascript:void(0);" data-text="Read More" class="btn btn-link">Read More</a> -->
-                                
-                                <!--<a href="#"><i class="lni-android"></i> </a>-->
-                                <!--<a href="#"><i class="lni-apple"></i> </a>-->
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Shapes -->
-                    <span class="shape-square" hidden ></span>
-                    <span class="shape-triangle" hidden></span>
-                    <span class="shape-plus" hidden></span>
-                    <span class="shape-circle" hidden></span>
-
-                </div>
-            </section>
-
-            <!-- About -->
-            <section id="about" class="pt-page pt-page-2" data-id="about">
-                <div class="container">
-                    <div class="row align-items-lg-center dot-box">
-
-                        <!-- Heading Area-->
-                        <div class="col-lg-6 order-lg-2">
-                            <div class="heading-area pl-lg-4 p-0">
-                                <!--<img src="personal/img/about.png">-->
-                                <img src="gallery/about-img.png">
-                                <!--<h6 class="sub-title main-color">Info about agri tech</h6>-->
-                                <h2 class="title main-color">About Veg Route</h2>
-<!--                                <p class="paragraph" style="font-weight:bold;">Veg Route is growing to be the most efficient Agri Tech B2C -->
-<!--Fresh Produce Supply Chain Platform by Connecting Dots in -->
-<!--the Supply Chain Space between Farmers and Consumers and -->
-<!--creating sustainable way for the growth of every stakeholder -->
-<!--being part of us.-->
-<!--                                <br><br>-->
-<!--                                We have our base setup at <span class="main-color">Coimbatore, Chennai, Tiruppur, Madurai, Tuticorin, Bengaluru, Goa</span> and counting...</p>-->
-                                    <p class="paragraph" style="font-weight:bold;text-align: justify;">We are building to be the most efficient fresh produce supply chain platform delivering freshly hand-picked fruits & vegetables right at your doorsteps, which is operational in Tier-2 and Tier-3 towns of India, catering to 2,00,000+ customers with the fresh produce from farms to plates within 12 hours of harvest. </p>
-                            </div>
-                        </div>
-
-                        <!-- Features Box-->
-                        <div class="col-lg-6">
-                            <div class="row d-flex align-items-lg-center">
-                                <div class="col-md-6 order-lg-2 p-0">
-                                    <!-- Feature Item -->
-                                    <div class="feature-item">
-                                        <i class="lni-home  f-icon"></i>
-                                        <h5 class="title" style="font-weight:bold;">2,00,000+</h5>
-                                        <p style="font-weight:bold;">Customers</p>
+                                    <h5 style="margin-top:20px; font-weight:800; text-align:left">Download our App on
+                                    </h5>
+                                    <div class="link_container">
+                                        <img onclick="AppRedirect('android')" src="personal/img/playstore.png"
+                                            style="width:25%;cursor:pointer">
+                                        <img onclick="AppRedirect('ios')" src="personal/img/appstore.png"
+                                            style="width:25%; cursor:pointer">
                                     </div>
-                                    <!-- Feature Item -->
-                                    <div class="feature-item">
-                                        <i class="lni-grow f-icon"></i>
-                                        <h5 class="title" style="font-weight:bold;">5000+</h5>
-                                        <p style="font-weight:bold;">Farmers &amp; Produce</p>
-                                    </div>
-                                    
-                                    <!-- Feature Item -->
-                                   
-                                    <!--<div class="feature-item" style="margin-top:23px;">-->
-                                    <!--    <i class="lni-flower f-icon"></i>-->
-                                    <!--    <h5 class="title" style="font-weight:bold;">8+</h5>-->
-                                    <!--    <p style="font-weight:bold;">Women &amp; Transgenders Employed</p>-->
-                                    <!--</div>-->
-                                </div>
-                                <div class="col-md-6 p-0">
-                                     <!-- Feature Item -->
-                                     <div class="feature-item">
-                                        <i class="lni-travel f-icon"></i>
-                                        <h5 class="title" style="font-weight:bold;">5+</h5>
-                                        <p style="font-weight:bold;">Cities &amp; Counting</p>
-                                    </div>
-                                    <!-- Feature Item -->
-                                    <div class="feature-item">
-                                        <i class="lni-restaurant f-icon"></i>
-                                        <h5 class="title" style="font-weight:bold;">5+</h5>
-                                        <p style="font-weight:bold;">Successful Franchises</p>
-                                    </div>
-                                    <!-- Feature Item -->
 
-                                    <!--<div class="feature-item" style="margin-top:23px;">-->
-                                    <!--    <i class="lni-invention f-icon"></i>-->
-                                    <!--    <h5 class="title" style="font-weight:bold;">15+</h5>-->
-                                    <!--    <p style="font-weight:bold;">Young Enthusiasts Associated</p>-->
-                                    <!--</div>-->
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="people_container">
+                                        <div class="people_list">
+                                            <img src="personal/img/avatar.png">
+                                            <img src="personal/img/avatar.png">
+                                            <img src="personal/img/avatar.png">
 
-                    </div>
-
-                </div>
-            </section>
-
-            <!-- Services -->
-            <section id="services" class="pt-page pt-page-3" data-id="services">
-                <div class="container">
-                    <div class="row align-items-lg-center">
-                        <!-- Features Box-->
-                        <div class="col-lg-5 pr-lg-5">
-                            <div class="heading-area">
-                                <h6 class="sub-title main-color">We Value Every Move</h6>
-                                <h2 class="title">Our Initiatives & Plans</h2>
-                                <a class="pt-trigger detailed-view" data-animation="58" data-goto="9" href="#detailed">Detailed View</a>
-                            </div>
-                            <!-- Progress Bar -->
-                            
-
-                            <!--Counters Area-->
-                            <div class="counter-area">
-                                <!-- Counter Item-->
-                                <div class="counters">
-                                    <i class="lni-agenda c-icon veg-icon"></i>
-                                    <h6 style="margin-top:25px;font-weight:bold;">Pack &amp; Deliver</h6>
-                                </div>
-                                <!-- Counter Item-->
-                                <div class="counters">
-                                    <i class="lni-restaurant c-icon veg-icon"></i>
-                                    <h6 style="margin-top:25px;font-weight:bold;">Micro Green Store</h6>
-                                </div>
-                            </div>
-                            <!--Counters Area-->
-                            <div class="counter-area">
-                                <!-- Counter Item-->
-                                 <div class="counters">
-                                    <i class="lni-shopping-basket c-icon veg-icon"></i>
-                                    <h6 style="margin-top:25px;font-weight:bold;">Gated Community<br>Operated Stores</h6>
-                                </div>
-                                <!-- Counter Item-->
-                               
-                                
-                                <div class="counters">
-                                    <i class="lni-apartment c-icon veg-icon"></i>
-                                    <h6 style="margin-top:25px;font-weight:bold;">Retail Stores</h6>
-                                    <!--<p style="font-size: 12px;margin-top: -15px;">Launching Soon...</p>-->
-                                </div>
-                            </div>
-                            <!--Counters Area-->
-                            <div class="counter-area">
-                                <!-- Counter Item-->
-                                
-                                <!-- Counter Item-->
-                                <div class="counters">
-                                    <!--<i class="lni-delivery c-icon veg-icon "></i>-->
-                                        <img class="service-image" src="personal/img/pushcart1.png" alt="image" >
-                                    <h6 style="margin-top:25px;font-weight:bold;" >Push Carts</h6>
-                                    <!--<p style="font-size: 12px;margin-top: -15px;">Launching Soon...</p>-->
-                                </div>
-                            </div>
-                           
-                        </div>
-
-                        <!-- Heading Area-->
-                        <div class="col-lg-7">
-                            <div class="services-about">
-                                <img class="service-image" src="personal/img/bag3.png" alt="image">
-                                <!--<div class="content">-->
-                                <!--    <h4 style="color:white;">Franchise Opportunities</h4>-->
-                                <!--    Minimum Investment -->
-                                <!--    <br><b style="font-size: 30px;">Rs.5,00,000</b>-->
-                                <!--    <p>-->
-                                <!--        <br><b><i class=" lni-pin"></i> Branding</b>-->
-                                <!--        <br><b><i class=" lni-pin"></i> Technology Support</b>-->
-                                <!--        <br><b><i class=" lni-pin"></i> Customer Care Support</b>-->
-                                <!--        <br><b><i class=" lni-pin"></i> Hiring & Training</b>-->
-                                <!--        <br><b><i class=" lni-pin"></i> Marketing</b>-->
-                                <!--        <br>And much more...</p>-->
-
-                                <!--</div>-->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <!-- Blogs -->
-            <section id="portfolio" class="pt-page pt-page-4" data-id="blogs">
-                <div class="container">
-                    <div class="heading-area">
-                                            <h6 class="sub-title main-color">Sample Content</h6>
-                                            <h2 class="title">Blog Section</h2>
-                                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
-                                            
                                         </div>
-                    <div class="row align-items-lg-center">
-                        
+                                        <h6>Trusted by 2,50,000+ customers in chennai</h6>
+                                    </div>
+                                    <!-- <a href="javascript:void(0);" data-text="Read More" class="btn btn-link">Read More</a> -->
 
-                        <!-- Blog Card start-->
-                            <div id="owl-blog" class="owl-carousel owl-theme"> 
-                                
-                                <div class="card">
-                                	<h3 class="card-title">BLOG TITLE</h3>
-                                		<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                		<button class="card-btn modalclick">READ MORE</button>
+                                    <!--<a href="#"><i class="lni-android"></i> </a>-->
+                                    <!--<a href="#"><i class="lni-apple"></i> </a>-->
                                 </div>
-                                <div class="card">
-                                	<h3 class="card-title">BLOG TITLE</h3>
-                                		<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                		<button class="card-btn modalclick">READ MORE</button>
-                                </div>
-                                <div class="card">
-                                	<h3 class="card-title">BLOG TITLE</h3>
-                                		<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                		<button class="card-btn modalclick">READ MORE</button>
-                                </div>
-                                <div class="card">
-                                	<h3 class="card-title">BLOG TITLE</h3>
-                                		<p class="card-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                		<button class="card-btn modalclick">READ MORE</button>
-                                </div>
-                            
-                            
                             </div>
 
+                        </div>
 
-                        <!-- Blog Card End-->
-                       
+                        <!-- Shapes -->
+                        <span class="shape-square" hidden></span>
+                        <span class="shape-triangle" hidden></span>
+                        <span class="shape-plus" hidden></span>
+                        <span class="shape-circle" hidden></span>
 
-                </div>
-            </section>
-            <!-- Portfolio -->
-            <!--<section id="portfolio" class="pt-page pt-page-4" data-id="blogs">-->
-            <!--    <div class="container">-->
-            <!--        <div class="row align-items-lg-center">-->
+                    </div>
+                </section>
 
-                        <!-- Portfolio Box-->
-            <!--            <div class="col-lg-12">-->
-                            <!--Portfolio Items-->
-            <!--                <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">-->
+                <!-- About -->
+                <section id="about" class="pt-page pt-page-2" data-id="about">
+                    <div class="container">
+                        <div class="row align-items-lg-center dot-box">
 
-                                <!-- Item -->
-            <!--                    <div class="cbp-item">-->
-            <!--                        <a href="personal/img/port-1.jpg" class="cbp-caption cbp-lightbox">-->
-            <!--                            <div class="cbp-caption-defaultWrap">-->
-            <!--                                <img src="gallery/1.jpg" alt="port-1">-->
-            <!--                            </div>-->
-            <!--                            <div class="cbp-caption-activeWrap">-->
-            <!--                                <i class="lni-arrow-right p-icon"></i>-->
-            <!--                                <div class="port-content">-->
-            <!--                                    <p class="mb-1 main-color">#1</p>-->
-            <!--                                    <h5>VegRoute</h5>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
+                            <!-- Heading Area-->
+                            <div class="col-lg-6 order-lg-2">
+                                <div class="heading-area pl-lg-4 p-0">
+                                    <!--<img src="personal/img/about.png">-->
+                                    <img src="gallery/about-img.png">
+                                    <!--<h6 class="sub-title main-color">Info about agri tech</h6>-->
+                                    <h2 class="title main-color">About Veg Route</h2>
+                                    <!--                                <p class="paragraph" style="font-weight:bold;">Veg Route is growing to be the most efficient Agri Tech B2C -->
+                                    <!--Fresh Produce Supply Chain Platform by Connecting Dots in -->
+                                    <!--the Supply Chain Space between Farmers and Consumers and -->
+                                    <!--creating sustainable way for the growth of every stakeholder -->
+                                    <!--being part of us.-->
+                                    <!--                                <br><br>-->
+                                    <!--                                We have our base setup at <span class="main-color">Coimbatore, Chennai, Tiruppur, Madurai, Tuticorin, Bengaluru, Goa</span> and counting...</p>-->
+                                    <p class="paragraph" style="font-weight:bold;text-align: justify;">We are building
+                                        to be the most efficient fresh produce supply chain platform delivering freshly
+                                        hand-picked fruits & vegetables right at your doorsteps, which is operational in
+                                        Tier-2 and Tier-3 towns of India, catering to 2,00,000+ customers with the fresh
+                                        produce from farms to plates within 12 hours of harvest. </p>
+                                </div>
+                            </div>
 
-            <!--                        </a>-->
-            <!--                    </div>-->
-                                <!-- Item -->
-            <!--                    <div class="cbp-item">-->
-            <!--                        <a href="personal/img/port-2.jpg" class="cbp-caption cbp-lightbox">-->
-            <!--                            <div class="cbp-caption-defaultWrap">-->
-            <!--                                <img src="gallery/4.jpg" alt="port-1">-->
-            <!--                            </div>-->
-            <!--                            <div class="cbp-caption-activeWrap">-->
-            <!--                                <i class="lni-arrow-right p-icon"></i>-->
-            <!--                                <div class="port-content">-->
-            <!--                                    <p class="mb-1 main-color">#2</p>-->
-            <!--                                    <h5>VegRoute</h5>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
+                            <!-- Features Box-->
+                            <div class="col-lg-6">
+                                <div class="row d-flex align-items-lg-center">
+                                    <div class="col-md-6 order-lg-2 p-0">
+                                        <!-- Feature Item -->
+                                        <div class="feature-item">
+                                            <i class="lni-home  f-icon"></i>
+                                            <h5 class="title" style="font-weight:bold;">2,00,000+</h5>
+                                            <p style="font-weight:bold;">Customers</p>
+                                        </div>
+                                        <!-- Feature Item -->
+                                        <div class="feature-item">
+                                            <i class="lni-grow f-icon"></i>
+                                            <h5 class="title" style="font-weight:bold;">5000+</h5>
+                                            <p style="font-weight:bold;">Farmers &amp; Produce</p>
+                                        </div>
 
-            <!--                        </a>-->
-            <!--                    </div>-->
-                                <!-- Item -->
-            <!--                    <div class="cbp-item">-->
-            <!--                        <a href="personal/img/port-3.jpg" class="cbp-caption cbp-lightbox">-->
-            <!--                            <div class="cbp-caption-defaultWrap">-->
-            <!--                                <img src="gallery/6.jpg" alt="port-1">-->
-            <!--                            </div>-->
-            <!--                            <div class="cbp-caption-activeWrap">-->
-            <!--                                <i class="lni-arrow-right p-icon"></i>-->
-            <!--                                <div class="port-content">-->
-            <!--                                    <p class="mb-1 main-color">#3</p>-->
-            <!--                                    <h5>VegRoute</h5>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
+                                        <!-- Feature Item -->
 
-            <!--                        </a>-->
-            <!--                    </div>-->
-                                <!-- Item -->
-            <!--                    <div class="cbp-item">-->
-            <!--                        <a href="personal/img/port-4.jpg" class="cbp-caption cbp-lightbox">-->
-            <!--                            <div class="cbp-caption-defaultWrap">-->
-            <!--                                <img src="gallery/3.jpg" alt="port-1">-->
-            <!--                            </div>-->
-            <!--                            <div class="cbp-caption-activeWrap">-->
-            <!--                                <i class="lni-arrow-right p-icon"></i>-->
-            <!--                                <div class="port-content">-->
-            <!--                                    <p class="mb-1 main-color">#4</p>-->
-            <!--                                    <h5>VegRoute</h5>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
+                                        <!--<div class="feature-item" style="margin-top:23px;">-->
+                                        <!--    <i class="lni-flower f-icon"></i>-->
+                                        <!--    <h5 class="title" style="font-weight:bold;">8+</h5>-->
+                                        <!--    <p style="font-weight:bold;">Women &amp; Transgenders Employed</p>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="col-md-6 p-0">
+                                        <!-- Feature Item -->
+                                        <div class="feature-item">
+                                            <i class="lni-travel f-icon"></i>
+                                            <h5 class="title" style="font-weight:bold;">5+</h5>
+                                            <p style="font-weight:bold;">Cities &amp; Counting</p>
+                                        </div>
+                                        <!-- Feature Item -->
+                                        <div class="feature-item">
+                                            <i class="lni-restaurant f-icon"></i>
+                                            <h5 class="title" style="font-weight:bold;">5+</h5>
+                                            <p style="font-weight:bold;">Successful Franchises</p>
+                                        </div>
+                                        <!-- Feature Item -->
 
-            <!--                        </a>-->
-            <!--                    </div>-->
-                                <!-- Item -->
-            <!--                    <div class="cbp-item">-->
-            <!--                        <a href="personal/img/port-5.jpg" class="cbp-caption cbp-lightbox">-->
-            <!--                            <div class="cbp-caption-defaultWrap">-->
-            <!--                                <img src="gallery/2.jpg" alt="port-1">-->
-            <!--                            </div>-->
-            <!--                            <div class="cbp-caption-activeWrap">-->
-            <!--                                <i class="lni-arrow-right p-icon"></i>-->
-            <!--                                <div class="port-content">-->
-            <!--                                    <p class="mb-1 main-color">#5</p>-->
-            <!--                                    <h5>VegRoute</h5>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
+                                        <!--<div class="feature-item" style="margin-top:23px;">-->
+                                        <!--    <i class="lni-invention f-icon"></i>-->
+                                        <!--    <h5 class="title" style="font-weight:bold;">15+</h5>-->
+                                        <!--    <p style="font-weight:bold;">Young Enthusiasts Associated</p>-->
+                                        <!--</div>-->
+                                    </div>
+                                </div>
+                            </div>
 
-            <!--                        </a>-->
-            <!--                    </div>-->
+                        </div>
 
-            <!--                </div>-->
-            <!--            </div>-->
+                    </div>
+                </section>
 
-            <!--        </div>-->
-            <!--    </div>-->
-            <!--</section>-->
-            <!-- What we do -->
-            <section id="whatwedo" class="pt-page pt-page-7" data-id="whatwedo">
-                <div class="container">
-                    <div class="row align-items-lg-center">
-                        <!-- Features Box-->
+                <!-- Services -->
+                <section id="services" class="pt-page pt-page-3" data-id="services">
+                    <div class="container">
+                        <div class="row align-items-lg-center">
+                            <!-- Features Box-->
+                            <div class="col-lg-5 pr-lg-5">
+                                <div class="heading-area">
+                                    <h6 class="sub-title main-color">We Value Every Move</h6>
+                                    <h2 class="title">Our Initiatives & Plans</h2>
+                                    <a class="pt-trigger detailed-view" data-animation="58" data-goto="9"
+                                        href="#detailed">Detailed View</a>
+                                </div>
+                                <!-- Progress Bar -->
+
+
+                                <!--Counters Area-->
+                                <div class="counter-area">
+                                    <!-- Counter Item-->
+                                    <div class="counters">
+                                        <i class="lni-agenda c-icon veg-icon"></i>
+                                        <h6 style="margin-top:25px;font-weight:bold;">Pack &amp; Deliver</h6>
+                                    </div>
+                                    <!-- Counter Item-->
+                                    <div class="counters">
+                                        <i class="lni-restaurant c-icon veg-icon"></i>
+                                        <h6 style="margin-top:25px;font-weight:bold;">Micro Green Store</h6>
+                                    </div>
+                                </div>
+                                <!--Counters Area-->
+                                <div class="counter-area">
+                                    <!-- Counter Item-->
+                                    <div class="counters">
+                                        <i class="lni-shopping-basket c-icon veg-icon"></i>
+                                        <h6 style="margin-top:25px;font-weight:bold;">Gated Community<br>Operated Stores
+                                        </h6>
+                                    </div>
+                                    <!-- Counter Item-->
+
+
+                                    <div class="counters">
+                                        <i class="lni-apartment c-icon veg-icon"></i>
+                                        <h6 style="margin-top:25px;font-weight:bold;">Retail Stores</h6>
+                                        <!--<p style="font-size: 12px;margin-top: -15px;">Launching Soon...</p>-->
+                                    </div>
+                                </div>
+                                <!--Counters Area-->
+                                <div class="counter-area">
+                                    <!-- Counter Item-->
+
+                                    <!-- Counter Item-->
+                                    <div class="counters">
+                                        <!--<i class="lni-delivery c-icon veg-icon "></i>-->
+                                        <img class="service-image" src="personal/img/pushcart1.png" alt="image">
+                                        <h6 style="margin-top:25px;font-weight:bold;">Push Carts</h6>
+                                        <!--<p style="font-size: 12px;margin-top: -15px;">Launching Soon...</p>-->
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Heading Area-->
+                            <div class="col-lg-7">
+                                <div class="services-about">
+                                    <img class="service-image" src="personal/img/bag3.png" alt="image">
+                                    <!--<div class="content">-->
+                                    <!--    <h4 style="color:white;">Franchise Opportunities</h4>-->
+                                    <!--    Minimum Investment -->
+                                    <!--    <br><b style="font-size: 30px;">Rs.5,00,000</b>-->
+                                    <!--    <p>-->
+                                    <!--        <br><b><i class=" lni-pin"></i> Branding</b>-->
+                                    <!--        <br><b><i class=" lni-pin"></i> Technology Support</b>-->
+                                    <!--        <br><b><i class=" lni-pin"></i> Customer Care Support</b>-->
+                                    <!--        <br><b><i class=" lni-pin"></i> Hiring & Training</b>-->
+                                    <!--        <br><b><i class=" lni-pin"></i> Marketing</b>-->
+                                    <!--        <br>And much more...</p>-->
+
+                                    <!--</div>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Blogs -->
+                <section id="portfolio" class="pt-page pt-page-4" data-id="blogs">
+                    <div class="container">
+                        <div class="heading-area">
+                            <h6 class="sub-title main-color">Sample Content</h6>
+                            <h2 class="title">Blog Section</h2>
+                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
+
+                        </div>
+                        <div class="row d-flex  justify-content-center">
+
+
+                            <!-- Blog Card start-->
+                            <div id="owl-blog" class="owl-carousel owl-theme"> 
+                                 <div class="card">
+                                <div class="image-wrapper">
+                                    <a class="image-link modalclick">
+                                        <img src='https://images.unsplash.com/photo-1619158406245-48d552bbcbbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                                            alt='Beautiful woman face by Oleg Gekman on 500px.com'>
+                                    </a>
+                                </div>
+                                <div class="text-box-wrapper">
+                                    <div class="text-box">
+                                        <h1 class="heading">
+                                            Fashion Week Styles
+                                        </h1>
+
+                                        <p class="text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione illum laudantium officia quasi cum distinctio ipsam assumenda, quo ducimus temporibus! Magnam facere dolor saepe fugiat beatae quis, similique incidunt?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="button-wrapper">
+                                    <a class="button modalclick">
+                                        Read More
+                                    </a>
+                                </div>
+                                <div class="batchwrapper">
+                                    <div class="batch-conainer">
+                                        <p>2 min</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <a class="image-link modalclick">
+                                        <img src='https://images.unsplash.com/photo-1619158406245-48d552bbcbbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                                            alt='Beautiful woman face by Oleg Gekman on 500px.com'>
+                                    </a>
+                                </div>
+                                <div class="text-box-wrapper">
+                                    <div class="text-box">
+                                        <h1 class="heading">
+                                            Fashion Week Styles
+                                        </h1>
+
+                                        <p class="text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione illum laudantium officia quasi cum distinctio ipsam assumenda, quo ducimus temporibus! Magnam facere dolor saepe fugiat beatae quis, similique incidunt?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="button-wrapper">
+                                    <a class="button modalclick">
+                                        Read More
+                                    </a>
+                                </div>
+                                <div class="batchwrapper">
+                                    <div class="batch-conainer">
+                                        <p>2 min</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <a class="image-link modalclick">
+                                        <img src='https://images.unsplash.com/photo-1619158406245-48d552bbcbbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
+                                            alt='Beautiful woman face by Oleg Gekman on 500px.com'>
+                                    </a>
+                                </div>
+                                <div class="text-box-wrapper">
+                                    <div class="text-box">
+                                        <h1 class="heading">
+                                            Fashion Week Styles
+                                        </h1>
+
+                                        <p class="text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ratione illum laudantium officia quasi cum distinctio ipsam assumenda, quo ducimus temporibus! Magnam facere dolor saepe fugiat beatae quis, similique incidunt?
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="button-wrapper">
+                                    <a class="button modalclick">
+                                        Read More
+                                    </a>
+                                </div>
+                                <div class="batchwrapper">
+                                    <div class="batch-conainer">
+                                        <p>2 min</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="blog-nav"></div>
+                            </div> 
+                            
+                            
+
+
+                            <!-- Blog Card End-->
+
+
+                        </div>
+                </section>
+                <!-- Portfolio -->
+                <!--<section id="portfolio" class="pt-page pt-page-4" data-id="blogs">-->
+                <!--    <div class="container">-->
+                <!--        <div class="row align-items-lg-center">-->
+
+                <!-- Portfolio Box-->
+                <!--            <div class="col-lg-12">-->
+                <!--Portfolio Items-->
+                <!--                <div id="js-grid-mosaic-flat" class="cbp cbp-l-grid-mosaic-flat">-->
+
+                <!-- Item -->
+                <!--                    <div class="cbp-item">-->
+                <!--                        <a href="personal/img/port-1.jpg" class="cbp-caption cbp-lightbox">-->
+                <!--                            <div class="cbp-caption-defaultWrap">-->
+                <!--                                <img src="gallery/1.jpg" alt="port-1">-->
+                <!--                            </div>-->
+                <!--                            <div class="cbp-caption-activeWrap">-->
+                <!--                                <i class="lni-arrow-right p-icon"></i>-->
+                <!--                                <div class="port-content">-->
+                <!--                                    <p class="mb-1 main-color">#1</p>-->
+                <!--                                    <h5>VegRoute</h5>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!-- Item -->
+                <!--                    <div class="cbp-item">-->
+                <!--                        <a href="personal/img/port-2.jpg" class="cbp-caption cbp-lightbox">-->
+                <!--                            <div class="cbp-caption-defaultWrap">-->
+                <!--                                <img src="gallery/4.jpg" alt="port-1">-->
+                <!--                            </div>-->
+                <!--                            <div class="cbp-caption-activeWrap">-->
+                <!--                                <i class="lni-arrow-right p-icon"></i>-->
+                <!--                                <div class="port-content">-->
+                <!--                                    <p class="mb-1 main-color">#2</p>-->
+                <!--                                    <h5>VegRoute</h5>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!-- Item -->
+                <!--                    <div class="cbp-item">-->
+                <!--                        <a href="personal/img/port-3.jpg" class="cbp-caption cbp-lightbox">-->
+                <!--                            <div class="cbp-caption-defaultWrap">-->
+                <!--                                <img src="gallery/6.jpg" alt="port-1">-->
+                <!--                            </div>-->
+                <!--                            <div class="cbp-caption-activeWrap">-->
+                <!--                                <i class="lni-arrow-right p-icon"></i>-->
+                <!--                                <div class="port-content">-->
+                <!--                                    <p class="mb-1 main-color">#3</p>-->
+                <!--                                    <h5>VegRoute</h5>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!-- Item -->
+                <!--                    <div class="cbp-item">-->
+                <!--                        <a href="personal/img/port-4.jpg" class="cbp-caption cbp-lightbox">-->
+                <!--                            <div class="cbp-caption-defaultWrap">-->
+                <!--                                <img src="gallery/3.jpg" alt="port-1">-->
+                <!--                            </div>-->
+                <!--                            <div class="cbp-caption-activeWrap">-->
+                <!--                                <i class="lni-arrow-right p-icon"></i>-->
+                <!--                                <div class="port-content">-->
+                <!--                                    <p class="mb-1 main-color">#4</p>-->
+                <!--                                    <h5>VegRoute</h5>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!-- Item -->
+                <!--                    <div class="cbp-item">-->
+                <!--                        <a href="personal/img/port-5.jpg" class="cbp-caption cbp-lightbox">-->
+                <!--                            <div class="cbp-caption-defaultWrap">-->
+                <!--                                <img src="gallery/2.jpg" alt="port-1">-->
+                <!--                            </div>-->
+                <!--                            <div class="cbp-caption-activeWrap">-->
+                <!--                                <i class="lni-arrow-right p-icon"></i>-->
+                <!--                                <div class="port-content">-->
+                <!--                                    <p class="mb-1 main-color">#5</p>-->
+                <!--                                    <h5>VegRoute</h5>-->
+                <!--                                </div>-->
+                <!--                            </div>-->
+
+                <!--                        </a>-->
+                <!--                    </div>-->
+
+                <!--                </div>-->
+                <!--            </div>-->
+
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</section>-->
+                <!-- What we do -->
+                <section id="whatwedo" class="pt-page pt-page-7" data-id="whatwedo">
+                    <div class="container">
+                        <div class="row align-items-lg-center">
+                            <!-- Features Box-->
                             <div class="col-lg-6">
                                 <div>
-                                        <div class="heading-area">
-                                            <h6 class="sub-title main-color">Quality is Our Priority</h6>
-                                            <h2 class="title">What we do?</h2>
-                                            
-                                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
-                                            <img src="personal/img/workflow.gif" class="hide-desktop" style="width:100%;margin-top:10px !important;margin-bottom:15px;"><hr class="hide-desktop">
-                                            <!--<p class="md-justify"><span style="color: #35ab39;font-weight: bold;">(1) Procurement &amp; Quality Checks</span> Our field executives run quality checks on the produce from the procured farms <span style="color: #35ab39;font-weight: bold;">(2) Farms to Nearyby Hubs</span> The fresh produces are packed and sent to the nearby collection hubs <span style="color: #35ab39;font-weight: bold;"> (3) Quality Checks</span> Our Executives inspect the produce once again before sending them out of Veg Route Warehouse <span style="color: #35ab39;font-weight: bold;">(4) Packaging & Transport</span> The produces are seperated and packed according to the orders and they are packed ready for the delivery <span style="color: #35ab39;font-weight: bold;">(5) Homes, Shops & Retailers</span> Our delivery agents are assigned to delivery the packages safe and secure to our customers within the next 8 hours.</p>-->
-                                            <ul style="list-style:none">
-                                                <li><span style="color: #35ab39;font-weight: bold;">(1) Procurement &amp; Quality Checks:</span> Our field procurement executives will run quality checks of the fresh produce from the farms.</li>
-                                                <li><span style="color: #35ab39;font-weight: bold;">(2) Farms to Fulfillment Centers:</span> The fresh produce which is procured is then sent to the nearby fulfillment centers.</li>
-                                                <li><span style="color: #35ab39;font-weight: bold;">(3) Quality Packing: </span> By quick analysis, knowing the characteristics of fresh produce, it's all safely and hygienically packed in different packing materials.</li>
-                                                <li><span style="color: #35ab39;font-weight: bold;">(4) Last Mile Delivery: </span> Our last mile delivery teams are assigned to deliver the orders to customers within the next few hours of ordering.</li>
-                                            </ul>
-                                        </div>
+                                    <div class="heading-area">
+                                        <h6 class="sub-title main-color">Quality is Our Priority</h6>
+                                        <h2 class="title">What we do?</h2>
+
+                                        <img src="personal/img/gline.png"
+                                            style="margin-top: -40px;height: 28px;width: 360px;">
+                                        <img src="personal/img/workflow.gif" class="hide-desktop"
+                                            style="width:100%;margin-top:10px !important;margin-bottom:15px;">
+                                        <hr class="hide-desktop">
+                                        <!--<p class="md-justify"><span style="color: #35ab39;font-weight: bold;">(1) Procurement &amp; Quality Checks</span> Our field executives run quality checks on the produce from the procured farms <span style="color: #35ab39;font-weight: bold;">(2) Farms to Nearyby Hubs</span> The fresh produces are packed and sent to the nearby collection hubs <span style="color: #35ab39;font-weight: bold;"> (3) Quality Checks</span> Our Executives inspect the produce once again before sending them out of Veg Route Warehouse <span style="color: #35ab39;font-weight: bold;">(4) Packaging & Transport</span> The produces are seperated and packed according to the orders and they are packed ready for the delivery <span style="color: #35ab39;font-weight: bold;">(5) Homes, Shops & Retailers</span> Our delivery agents are assigned to delivery the packages safe and secure to our customers within the next 8 hours.</p>-->
+                                        <ul style="list-style:none">
+                                            <li><span style="color: #35ab39;font-weight: bold;">(1) Procurement &amp;
+                                                    Quality Checks:</span> Our field procurement executives will run
+                                                quality checks of the fresh produce from the farms.</li>
+                                            <li><span style="color: #35ab39;font-weight: bold;">(2) Farms to Fulfillment
+                                                    Centers:</span> The fresh produce which is procured is then sent to
+                                                the nearby fulfillment centers.</li>
+                                            <li><span style="color: #35ab39;font-weight: bold;">(3) Quality Packing:
+                                                </span> By quick analysis, knowing the characteristics of fresh produce,
+                                                it's all safely and hygienically packed in different packing materials.
+                                            </li>
+                                            <li><span style="color: #35ab39;font-weight: bold;">(4) Last Mile Delivery:
+                                                </span> Our last mile delivery teams are assigned to deliver the orders
+                                                to customers within the next few hours of ordering.</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                 <img src="personal/img/workflow.gif" class="hide-mobile" style="width:100%;margin-top:50px !important;">
-                                 <img src="personal/img/whatwedoimg2.png" class="hide-mobile" style="margin-top:25px;">
-                                 <img src="personal/img/whatwedoimg2.png" class="hide-desktop" style="margin-top:10px;">
+                                <img src="personal/img/workflow.gif" class="hide-mobile"
+                                    style="width:100%;margin-top:50px !important;">
+                                <img src="personal/img/whatwedoimg2.png" class="hide-mobile" style="margin-top:25px;">
+                                <img src="personal/img/whatwedoimg2.png" class="hide-desktop" style="margin-top:10px;">
                             </div>
-                            
-                            
-                    </div>
-                </div>
-            </section>
 
-            <!-- Clients -->
-            <section id="clients" class="pt-page pt-page-5" data-id="clients">
-                <div class="container">
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Clients -->
+                <section id="clients" class="pt-page pt-page-5" data-id="clients">
+                    <div class="container">
                         <div class="row d-flex align-content-lg-center min-height-100vh">
 
-                        <!-- Features Box-->
-                        <div class="col-lg-4 pr-lg-5 p-0">
-                            <div class="heading-area">
-                                <h6 class="sub-title main-color">What Our Customers Say About us</h6>
-                                <h2 class="title">Our Customers & Reviews</h2>
-                                <p class="paragraph">The best advertising is done by our satisfied customers.</p>
-                                <form class="contact-form" id="contact-form-data" style="padding:5px;">
+                            <!-- Features Box-->
+                            <div class="col-lg-4 pr-lg-5 p-0">
+                                <div class="heading-area">
+                                    <h6 class="sub-title main-color">What Our Customers Say About us</h6>
+                                    <h2 class="title">Our Customers & Reviews</h2>
+                                    <p class="paragraph">The best advertising is done by our satisfied customers.</p>
+                                    <form class="contact-form" id="contact-form-data" style="padding:5px;">
 
 
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="We appreciate your review..." required="" id="your_subject" name="userSubject">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text"
+                                                placeholder="We appreciate your review..." required="" id="your_subject"
+                                                name="userSubject">
+                                        </div>
+                                        <!--Button-->
+                                        <a href="javascript:void(0);" id="submit_btn"
+                                            class="btn btn-large btn-rounded btn-green d-block mt-4 contact_btn"><i
+                                                class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i>Send
+                                            Review</a>
+
+                                    </form>
                                 </div>
-    <!--Button-->
-                                <a href="javascript:void(0);" id="submit_btn" class="btn btn-large btn-rounded btn-green d-block mt-4 contact_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i>Send Review</a>
 
-                            </form>
+                                <div id="client-nav"></div>
                             </div>
-                            
-                            <div id="client-nav"></div>
-                        </div>
 
-                        <!-- Client Area-->
-                        <div class="col-lg-8">
-                            <div id="owl-client" class="owl-carousel owl-theme">
-                                <!--Items-->
-                                <!--<div class="client-box">-->
-                                <!--        <i class="lni-quotation q-icon"></i>-->
-                                <!--        <p>Fresh, timely delivery and the delivery person also followed covid protocols.  Overall happy with the order 👍🏻 Will recommend Veg Route to all my neighbors, friends and families.</p>-->
+                            <!-- Client Area-->
+                            <div class="col-lg-8">
+                                <div id="owl-client" class="owl-carousel owl-theme">
+                                    <!--Items-->
+                                    <!--<div class="client-box">-->
+                                    <!--        <i class="lni-quotation q-icon"></i>-->
+                                    <!--        <p>Fresh, timely delivery and the delivery person also followed covid protocols.  Overall happy with the order 👍🏻 Will recommend Veg Route to all my neighbors, friends and families.</p>-->
 
-                                <!--        <div class="client-img">-->
-                                <!--            <img src="client/client1.jpg" alt="client">-->
-                                <!--        </div>-->
-                                <!--        <h5 class="client-name mb-0">Krishna</h5>-->
-                                        <!--<span class="client-designation">CEO, yellow bucket</span>-->
+                                    <!--        <div class="client-img">-->
+                                    <!--            <img src="client/client1.jpg" alt="client">-->
+                                    <!--        </div>-->
+                                    <!--        <h5 class="client-name mb-0">Krishna</h5>-->
+                                    <!--<span class="client-designation">CEO, yellow bucket</span>-->
 
-                                <!--</div>-->
-                                <!--Items-->
-                                <!--<div class="client-box">-->
-                                <!--    <i class="lni-quotation q-icon"></i>-->
-                                <!--    <p>The Vegetables are fresh from the garden and delivery was on time. Vegetables and Fruits were at affordable price.  </p>-->
+                                    <!--</div>-->
+                                    <!--Items-->
+                                    <!--<div class="client-box">-->
+                                    <!--    <i class="lni-quotation q-icon"></i>-->
+                                    <!--    <p>The Vegetables are fresh from the garden and delivery was on time. Vegetables and Fruits were at affordable price.  </p>-->
 
-                                <!--    <div class="client-img">-->
-                                <!--        <img src="client/client2.jpg" alt="client">-->
-                                <!--    </div>-->
-                                <!--    <h5 class="client-name mb-0">Shankar</h5>-->
+                                    <!--    <div class="client-img">-->
+                                    <!--        <img src="client/client2.jpg" alt="client">-->
+                                    <!--    </div>-->
+                                    <!--    <h5 class="client-name mb-0">Shankar</h5>-->
                                     <!--<span class="client-designation">Marketing Lead</span>-->
 
-                                <!--</div>-->
-                                <!--Items-->
-                                <div class="client-box">
-                                    <i class="lni-quotation q-icon"></i>
-                                    <p> The delivery was super fast before mentioned period with fresh veggies and fruits. Worth for the money.</p>
+                                    <!--</div>-->
+                                    <!--Items-->
+                                    <div class="client-box">
+                                        <i class="lni-quotation q-icon"></i>
+                                        <p> The delivery was super fast before mentioned period with fresh veggies and
+                                            fruits. Worth for the money.</p>
 
-                                    <div class="client-img">
-                                        <img src="client/client3.jpg" alt="client">
+                                        <div class="client-img">
+                                            <img src="client/client3.jpg" alt="client">
+                                        </div>
+                                        <h5 class="client-name mb-0">Sudhan</h5>
+                                        <!--<span class="client-designation">General Manager</span>-->
+
                                     </div>
-                                    <h5 class="client-name mb-0">Sudhan</h5>
-                                    <!--<span class="client-designation">General Manager</span>-->
+                                    <div class="client-box">
+                                        <i class="lni-quotation q-icon"></i>
+                                        <p> Route that connects the farm to your front door.</p>
 
-                                </div>
-                                <div class="client-box">
-                                    <i class="lni-quotation q-icon"></i>
-                                    <p> Route that connects the farm to your front door.</p>
+                                        <div class="client-img">
+                                            <img src="client/client4.jpeg" alt="client">
+                                        </div>
+                                        <h5 class="client-name mb-0">Josline Nikhita</h5>
+                                        <!--<span class="client-designation">General Manager</span>-->
 
-                                    <div class="client-img">
-                                        <img src="client/client4.jpeg" alt="client">
                                     </div>
-                                    <h5 class="client-name mb-0">Josline Nikhita</h5>
-                                    <!--<span class="client-designation">General Manager</span>-->
+                                    <div class="client-box">
+                                        <i class="lni-quotation q-icon"></i>
+                                        <p> Ground zero to the top.</p>
 
-                                </div>
-                                <div class="client-box">
-                                    <i class="lni-quotation q-icon"></i>
-                                    <p> Ground zero to the top.</p>
+                                        <div class="client-img">
+                                            <img src="client/client5.jpg" alt="client">
+                                        </div>
+                                        <h5 class="client-name mb-0">Pranesh</h5>
+                                        <!--<span class="client-designation">General Manager</span>-->
 
-                                    <div class="client-img">
-                                        <img src="client/client5.jpg" alt="client">
                                     </div>
-                                    <h5 class="client-name mb-0">Pranesh</h5>
-                                    <!--<span class="client-designation">General Manager</span>-->
+                                    <div class="client-box">
+                                        <i class="lni-quotation q-icon"></i>
+                                        <p> விதைகளை நோக்கிய வேர்களின் பயணம்!</p>
 
-                                </div>
-                                <div class="client-box">
-                                    <i class="lni-quotation q-icon"></i>
-                                    <p> விதைகளை நோக்கிய வேர்களின் பயணம்!</p>
+                                        <div class="client-img">
+                                            <img src="client/client6.jpg" alt="client">
+                                        </div>
+                                        <h5 class="client-name mb-0">Priyadharshini</h5>
+                                        <!--<span class="client-designation">General Manager</span>-->
 
-                                    <div class="client-img">
-                                        <img src="client/client6.jpg" alt="client">
                                     </div>
-                                    <h5 class="client-name mb-0">Priyadharshini</h5>
-                                    <!--<span class="client-designation">General Manager</span>-->
+                                    <div class="client-box">
+                                        <i class="lni-quotation q-icon"></i>
+                                        <p> Fresh veggies seasoned with a farmer's flair!</p>
 
-                                </div>
-                                <div class="client-box">
-                                    <i class="lni-quotation q-icon"></i>
-                                    <p> Fresh veggies seasoned with a farmer's flair!</p>
+                                        <div class="client-img">
+                                            <img src="client/client7.png" alt="client">
+                                        </div>
+                                        <h5 class="client-name mb-0">Rohini. V </h5>
+                                        <!--<span class="client-designation">General Manager</span>-->
 
-                                    <div class="client-img">
-                                        <img src="client/client7.png" alt="client">
                                     </div>
-                                    <h5 class="client-name mb-0">Rohini. V </h5>
-                                    <!--<span class="client-designation">General Manager</span>-->
+                                    <div class="client-box">
+                                        <i class="lni-quotation q-icon"></i>
+                                        <p> TZero to top, the ground level attitude should continue even though it’s no
+                                            –1.</p>
 
-                                </div>
-                                <div class="client-box">
-                                    <i class="lni-quotation q-icon"></i>
-                                    <p> TZero to top, the ground level attitude should continue even though it’s no –1.</p>
+                                        <div class="client-img">
+                                            <img src="client/client8.jpg" alt="client">
+                                        </div>
+                                        <h5 class="client-name mb-0">Satis Kumar</h5>
+                                        <!--<span class="client-designation">General Manager</span>-->
 
-                                    <div class="client-img">
-                                        <img src="client/client8.jpg" alt="client">
                                     </div>
-                                    <h5 class="client-name mb-0">Satis Kumar</h5>
-                                    <!--<span class="client-designation">General Manager</span>-->
-
                                 </div>
                             </div>
-                        </div>
 
-                        <!--Partner Slider-->
-                       
-                            <h4 class="text-center" style="margin-top:25px;margin-bottom:25px;">We are operating in 4+ cities.</h4>
+                            <!--Partner Slider-->
+
+                            <h4 class="text-center" style="margin-top:25px;margin-bottom:25px;">We are operating in 4+
+                                cities.</h4>
                             <div class="owl-carousel partners-slider" style="margin-top:0px;">
-                            <div class="logo-item"> <img alt="client-logo" src="personal/img/chennai.png"></div>
-                            <div class="logo-item"> <img alt="client-logo" src="personal/img/coimbatore.png"></div>
-                            <div class="logo-item"> <img alt="client-logo" src="personal/img/madurai.png"></div>
-                            <div class="logo-item"> <img alt="client-logo" src="personal/img/tuticorin.png"></div>
-                            <!--<div class="logo-item"> <img alt="client-logo" src="personal/img/gurgaon.jpg"></div>-->
-                            <!--<div class="logo-item"> <img alt="client-logo" src="personal/img/bangalore.png"></div>-->
-                            <!--<div class="logo-item"> <img alt="client-logo" src="personal/img/goa.png"></div>-->
+                                <div class="logo-item"> <img alt="client-logo" src="personal/img/chennai.png"></div>
+                                <div class="logo-item"> <img alt="client-logo" src="personal/img/coimbatore.png"></div>
+                                <div class="logo-item"> <img alt="client-logo" src="personal/img/madurai.png"></div>
+                                <div class="logo-item"> <img alt="client-logo" src="personal/img/tuticorin.png"></div>
+                                <!--<div class="logo-item"> <img alt="client-logo" src="personal/img/gurgaon.jpg"></div>-->
+                                <!--<div class="logo-item"> <img alt="client-logo" src="personal/img/bangalore.png"></div>-->
+                                <!--<div class="logo-item"> <img alt="client-logo" src="personal/img/goa.png"></div>-->
+
+                            </div>
+                            <!--<div class="hide-desktop"><marquee style="color:white;">S<img src="personal/img/cities-all.jpg" style="width: 185% !important; max-width: 185% !important;"></marquee></div>-->
 
                         </div>
-                        <!--<div class="hide-desktop"><marquee style="color:white;">S<img src="personal/img/cities-all.jpg" style="width: 185% !important; max-width: 185% !important;"></marquee></div>-->
-
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Contacts -->
-            <section id="contact" class="pt-page pt-page-6" data-id="contact">
-                <div class="container">
-                    <div class="row align-items-lg-center">
-                    <!--Form area-->
-                    <div class="col-lg-6 pr-lg-5">
-                        <div class="heading-area">
-                            <h6 class="sub-title main-color">Have any Question ?</h6>
-                            <h2 class="title">Let's Get In Touch</h2>
-                        </div>
-                        <!--Contact Form-->
-                        <form class="contact-form" id="contact-form-data">
-
-
-                                <div class="row">
-                                    <div class="col-sm-12" id="result"></div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="Name" required="" id="your_name" name="userName">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input class="form-control" type="email" placeholder="Email" required="" id="your_email" name="userEmail">
-                                        </div>
-                                    </div>
+                <!-- Contacts -->
+                <section id="contact" class="pt-page pt-page-6" data-id="contact">
+                    <div class="container">
+                        <div class="row align-items-lg-center">
+                            <!--Form area-->
+                            <div class="col-lg-6 pr-lg-5">
+                                <div class="heading-area">
+                                    <h6 class="sub-title main-color">Have any Question ?</h6>
+                                    <h2 class="title">Let's Get In Touch</h2>
                                 </div>
+                                <!--Contact Form-->
+                                <form class="contact-form" id="contact-form-data">
 
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Subject" required="" id="your_subject" name="userSubject">
+
+                                    <div class="row">
+                                        <div class="col-sm-12" id="result"></div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" placeholder="Name" required=""
+                                                    id="your_name" name="userName">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input class="form-control" type="email" placeholder="Email" required=""
+                                                    id="your_email" name="userEmail">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Subject" required=""
+                                            id="your_subject" name="userSubject">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Message" id="message"
+                                            name="userMessage"></textarea>
+                                    </div>
+
+                                    <!--Button-->
+                                    <a href="javascript:void(0);" id="submit_btn"
+                                        class="btn btn-large btn-rounded btn-green d-block mt-4 contact_btn"><i
+                                            class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i>Send
+                                        Message</a>
+
+                                </form>
+
+                                <!-- Address -->
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <i class="lni-apartment main-color"></i>
+                                        <div class="content">
+                                            <h6 class="main-color m-0">Address</h6>
+                                            <p><b>VegRoute Agri Tech Private Limited</b><br>208, 3rd Link Street, (Opp.
+                                                Turyaa Hotel), Nehru Nagar, Perungudi (OMR), Chennai-600096.</p>
+                                        </div>
+                                    </li>
+                                    <!--item-->
+                                    <li class="pr-2 mb-4">
+                                        <i class="lni-envelope main-color"></i>
+                                        <div class="content">
+                                            <h6 class="main-color m-0">Email</h6>
+                                            <p><a href="mailto:support@vegroute.com">support@vegroute.com</a></p>
+                                        </div>
+                                    </li>
+                                    <!--item-->
+                                    <li>
+                                        <i class="lni-phone-handset main-color"></i>
+                                        <div class="content">
+                                            <h6 class="main-color m-0">Contact</h6>
+                                            <p><a href="tel:+918822336622">+91 88223 36622</a></p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
                             </div>
 
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Message" id="message" name="userMessage"></textarea>
+                            <!--map area-->
+                            <div class="col-lg-6">
+                                <div
+                                    style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:500px;">
+                                    <div id="gmapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe
+                                            style="height:100%;width:100%;border:0;" frameborder="0"
+                                            src="https://www.google.com/maps/embed/v1/place?q=veg+route+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                    </div><a class="codefor-google-map" rel="nofollow" href="https://www.embed-map.com"
+                                        id="authmaps-data">https://www.embed-map.com</a>
+                                </div>
                             </div>
-
-                                <!--Button-->
-                            <a href="javascript:void(0);" id="submit_btn" class="btn btn-large btn-rounded btn-green d-block mt-4 contact_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i>Send Message</a>
-
-                            </form>
-
-                            <!-- Address -->
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <i class="lni-apartment main-color"></i>
-                                   <div class="content">
-                                       <h6 class="main-color m-0">Address</h6>
-                                       <p><b>VegRoute Agri Tech Private Limited</b><br>208, 3rd Link Street, (Opp. Turyaa Hotel), Nehru Nagar, Perungudi (OMR), Chennai-600096.</p>
-                                   </div>
-                               </li>
-                                <!--item-->
-                                <li class="pr-2 mb-4">
-                                    <i class="lni-envelope main-color"></i>
-                                    <div class="content">
-                                       <h6 class="main-color m-0">Email</h6>
-                                       <p><a href="mailto:support@vegroute.com">support@vegroute.com</a></p>
-                                   </div>
-                                </li>
-                                <!--item-->
-                                <li>
-                                    <i class="lni-phone-handset main-color"></i>
-                                    <div class="content">
-                                       <h6 class="main-color m-0">Contact</h6>
-                                       <p><a href="tel:+918822336622">+91 88223 36622</a></p>
-                                   </div>
-                                </li>
-
-                            </ul>
-
-                    </div>
-
-                    <!--map area-->
-                    <div class="col-lg-6">
-                        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:500px;"><div id="gmapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=veg+route+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="codefor-google-map" rel="nofollow" href="https://www.embed-map.com" id="authmaps-data">https://www.embed-map.com</a></div>
-                    </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Contacts -->
-            <section id="whyvr" class="pt-page pt-page-7" data-id="whyvr">
-                <div class="container">
-                    <div class="heading-area">
-                                            <h6 class="sub-title main-color">Best &amp; Improvise</h6>
-                                            <h2 class="title">Why Veg Route?</h2>
-                                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
-                                            
-                                        </div>
-                    <div class="row">
-                        
-                            
-                    <!--Form area-->
-                    <div class="col-lg-4 pr-lg-4">
-                        <div class="heading-area cus-head">
-                            <h3><img src="personal/img/why1.png" style="width: 50px;">Farmers</h3>
                         </div>
-                        <!--Contact Form-->
-
-                            <!-- Address -->
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <div class="content">
-                                       <p><span class="whyvrp">1.</span> Employing Technology to Sell their Produces<br>
-                                        <span class="whyvrp">2.</span> Connecting them Directly<br>
-                                        <span class="whyvrp">3.</span> Additional 20%+ Profits<br>
-                                        <span class="whyvrp">4.</span> Benefits Small Scale Farmers<br>
-                                        <span class="whyvrp">5.</span> Pay them in 24 Hours</p>
-                                   </div>
-                               </li>
-
-                            </ul>
-
                     </div>
-                    <div class="col-lg-4 pr-lg-4">
-                        <div class="heading-area cus-head">
-                            <h3><img src="personal/img/why2.png" style="width: 50px;">Customers</h3>
-                        </div>
-                        <!--Contact Form-->
-
-                            <!-- Address -->
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <div class="content">
-                                       <p><span class="whyvrp">1.</span> Ordering made simple<br>
-                                        <span class="whyvrp">2.</span> Customer Care Support<br>
-                                        <span class="whyvrp">3.</span> Best Pricing<br>
-                                        <span class="whyvrp">4.</span> Free delivery<br>
-                                        <span class="whyvrp">5.</span> Fresh and Safe<br>
-                                        <!--<span class="whyvrp">6.</span> saves 20% on every order</p>-->
-                                   </div>
-                               </li>
-
-                            </ul>
-
-                    </div>
-                    <div class="col-lg-4 pr-lg-4">
-                        <div class="heading-area cus-head">
-                            <h3><img src="personal/img/why3.png" style="width: 50px;">VR Beneficiaries</h3>
-                        </div>
-                        <!--Contact Form-->
-
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <div class="content">
-                                       <p class="vrbn"><span class="whyvrp">1.</span> Employing the Skilled<br>
-                                        <span class="whyvrp">2. </span> Competitive pricing for everyone<br>
-                                        <span class="whyvrp">3.</span> Operates in Tier – II & Tier – III towns of India<br>
-                                        <!--<span class="whyvrp">4.</span> Competitive pricing for everyone<br>-->
-                                        <!--<span class="whyvrp">5.</span> Operates in small towns & villages</p>-->
-                                   </div>
-                               </li>
-
-                            </ul>
-
-                    </div>
-
-                    <!--map area-->
-                    </div>
-                </div>
-            </section>
-            <!--Detailed-->
-            <section id="detailed" class="pt-page pt-page-9" data-id="detailed">
-                <div class="container">
-                    <div class="heading-area">
-                                            <h6 class="sub-title main-color">Best &amp; Improvise</h6>
-                                            <h2 class="title">Why Veg Route?</h2>
-                                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
-                                            
-                                        </div>
-                    <div class="row align-items-lg-center">
-                        
-                            
-                    <!--Form area-->
-                    <div class="col-lg-4 pr-lg-4">
+                </section>
+                <!-- Contacts -->
+                <section id="whyvr" class="pt-page pt-page-7" data-id="whyvr">
+                    <div class="container">
                         <div class="heading-area">
-                            <h3>Pack and Deliver</h3>
-                        </div>
-                        <!--Contact Form-->
-
-                            <!-- Address -->
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <div class="content">
-                                       <p><span class="whyvrp">1.</span> Download our App available on Playstore(Android), iOS, Ecommerce<br>
-                                        <span class="whyvrp">2.</span> Choose Products<br>
-                                        <span class="whyvrp">3.</span> Place your Order<br>
-                                        <span class="whyvrp">4.</span> Sit back and relax<br>
-                                        <span class="whyvrp">5.</span> We will deliver within a few hours<br>
-                                        <span class="whyvrp">6.</span> Zero Delivery Charges</p>
-                                       
-                                   </div>
-                               </li>
-
-                            </ul>
-
-                    </div>
-                    <div class="col-lg-4 pr-lg-4">
-                        <div class="heading-area">
-                            <h3>Gated Community Operated Stores</h3>
-                        </div>
-                        <!--Contact Form-->
-
-                            <!-- Address -->
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <div class="content">
-                                       <p><span class="whyvrp">1.</span> Ring us on 88 22 33 66 22<br>
-                                        <span class="whyvrp">2.</span> Share us about your gated community (Apartments, Row 
-Houses,Villa’s and much more)<br>
-                                        <span class="whyvrp">3.</span> Our team will get in touch shortly<br>
-                                        <span class="whyvrp">4.</span> Enjoy your Fresh Veggies and Fruits Handpicking experience at 
-your gated community<br>
-                                        
-                                   </div>
-                               </li>
-
-                            </ul>
-
-                    </div>
-                    <div class="col-lg-4 pr-lg-4">
-                        <div class="heading-area">
-                            <h3>Micro Green Outlet on Kiosk</h3>
-                        </div>
-                        <!--Contact Form-->
-
-                            <ul class="address-item">
-                               <!--item-->
-                               <li class="w-100 mb-4">
-                                   <div class="content">
-                                       <p><span class="whyvrp">1.</span> Supporting #Superwomen and making them smile<br>
-                                        <span class="whyvrp">2.</span> India's First Micro Green Outlet on Kiosk to sell Fresh Greens<br>
-                                        <span class="whyvrp">3.</span> Microgreens at Your Workplace /Gated Community / Public<br>
-                                        <span class="whyvrp">4.</span> Ring us on 88 22 33 66 22 to know more<br>
-                                   </div>
-                               </li>
-
-                            </ul>
-
-                    </div>
-
-                    <!--map area-->
-                    </div>
-                </div>
-            </section>
-            <!--privacy policy-->
-            <section id="detailed" class="pt-page pt-page-10" data-id="detailed">
-                <div class="container">
-                    <div class="heading-area">
-                                            <h6 class="sub-title main-color">Veg Route</h6>
-                                            <h2 class="title">Privacy Policy</h2>
-                                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
-                                            
-                                        </div>
-                    <div class="row align-items-lg-center">
-                        
-                            
-                    <!--Form area-->
-                    <div class="col-lg-12 pr-lg-12" style="text-align:justify;">
-                        <!--Contact Form-->
-                        <p><b>Personal identification information</b><br>
-Personal identification information may be required by the site in order to develop a user-friendly environment of the website. We may collect personal identification information from users in different ways including, like Users visit our site, place an order, fill out a form, Users may be asked for appropriate, name, email address, mailing address, phone number. Users may visit our Site casually. We will collect personal identification information from users only if they voluntarily submit such information to us. Users can always refuse to supply personal identification information anytime in the visit to our website.
-<p><b>Non-personal identification information</b><br>
-Non-personal identification information may include the browser name, the type of computer, and technical information about users. We may collect non-personal identification information about Users whenever they interact with our Site.
-<p><b>Browser cookies</b><br>
-We store cookies for improving our user experience. Users may choose to set their web browser to refuse cookies or to alert you when cookies are being sent.
-<p><b>Protection of information</b><br>
-We maintain a secure way to protect against unauthorized access, alteration, disclosure, or destruction of your personal information, username, password, transaction information, and data stored on our Site.
-<p><b>Policy acceptance</b><br>
-By logging into our Site, you accept our privacy policy. Users can anytime deactivate their account and thus declaring the condition that they no longer bounded by our terms of the privacy policy.
-
-</p>
-
-                    </div>
-
-                    <!--map area-->
-                    </div>
-                </div>
-            </section>
-            <!--Teams-->
-            <section id="ourinvestors"  class="pt-page pt-page-11" data-id="ourinvestors">
-                <div class="container">
-                    <div class="heading-area justify-content-center" style="text-align:center">
-                        <div class="cus_heading">
-                    
-                            <h2 >Our Investors</h2>
-                            <p>Raised Seed Funding of $1.1 Million</p>
+                            <h6 class="sub-title main-color">Best &amp; Improvise</h6>
+                            <h2 class="title">Why Veg Route?</h2>
                             <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
-                            <p>Led by VGROW Ventures</p>
-                        
+
                         </div>
-                                            
+                        <div class="row">
+
+
+                            <!--Form area-->
+                            <div class="col-lg-4 pr-lg-4">
+                                <div class="heading-area cus-head">
+                                    <h3><img src="personal/img/why1.png" style="width: 50px;">Farmers</h3>
+                                </div>
+                                <!--Contact Form-->
+
+                                <!-- Address -->
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <div class="content">
+                                            <p><span class="whyvrp">1.</span> Employing Technology to Sell their
+                                                Produces<br>
+                                                <span class="whyvrp">2.</span> Connecting them Directly<br>
+                                                <span class="whyvrp">3.</span> Additional 20%+ Profits<br>
+                                                <span class="whyvrp">4.</span> Benefits Small Scale Farmers<br>
+                                                <span class="whyvrp">5.</span> Pay them in 24 Hours
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-4 pr-lg-4">
+                                <div class="heading-area cus-head">
+                                    <h3><img src="personal/img/why2.png" style="width: 50px;">Customers</h3>
+                                </div>
+                                <!--Contact Form-->
+
+                                <!-- Address -->
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <div class="content">
+                                            <p><span class="whyvrp">1.</span> Ordering made simple<br>
+                                                <span class="whyvrp">2.</span> Customer Care Support<br>
+                                                <span class="whyvrp">3.</span> Best Pricing<br>
+                                                <span class="whyvrp">4.</span> Free delivery<br>
+                                                <span class="whyvrp">5.</span> Fresh and Safe<br>
+                                                <!--<span class="whyvrp">6.</span> saves 20% on every order</p>-->
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-4 pr-lg-4">
+                                <div class="heading-area cus-head">
+                                    <h3><img src="personal/img/why3.png" style="width: 50px;">VR Beneficiaries</h3>
+                                </div>
+                                <!--Contact Form-->
+
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <div class="content">
+                                            <p class="vrbn"><span class="whyvrp">1.</span> Employing the Skilled<br>
+                                                <span class="whyvrp">2. </span> Competitive pricing for everyone<br>
+                                                <span class="whyvrp">3.</span> Operates in Tier – II & Tier – III towns
+                                                of India<br>
+                                                <!--<span class="whyvrp">4.</span> Competitive pricing for everyone<br>-->
+                                                <!--<span class="whyvrp">5.</span> Operates in small towns & villages</p>-->
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <!--map area-->
+                        </div>
                     </div>
-                    <div id="style-2" class="row align-items-lg-center">
+                </section>
+                <!--Detailed-->
+                <section id="detailed" class="pt-page pt-page-9" data-id="detailed">
+                    <div class="container">
+                        <div class="heading-area">
+                            <h6 class="sub-title main-color">Best &amp; Improvise</h6>
+                            <h2 class="title">Why Veg Route?</h2>
+                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
+
+                        </div>
+                        <div class="row align-items-lg-center">
 
 
-                    <div class="round_investors_section">
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv1.jpg" alt="investor 1">
+                            <!--Form area-->
+                            <div class="col-lg-4 pr-lg-4">
+                                <div class="heading-area">
+                                    <h3>Pack and Deliver</h3>
                                 </div>
-                                <div class="round_card_content">
-                                    <p>mohan k</p>
-                                    <p>Co Founder and CEO <br> IPPOPAY</p>
+                                <!--Contact Form-->
+
+                                <!-- Address -->
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <div class="content">
+                                            <p><span class="whyvrp">1.</span> Download our App available on
+                                                Playstore(Android), iOS, Ecommerce<br>
+                                                <span class="whyvrp">2.</span> Choose Products<br>
+                                                <span class="whyvrp">3.</span> Place your Order<br>
+                                                <span class="whyvrp">4.</span> Sit back and relax<br>
+                                                <span class="whyvrp">5.</span> We will deliver within a few hours<br>
+                                                <span class="whyvrp">6.</span> Zero Delivery Charges
+                                            </p>
+
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-4 pr-lg-4">
+                                <div class="heading-area">
+                                    <h3>Gated Community Operated Stores</h3>
                                 </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv2.jpg" alt="investor 1">
+                                <!--Contact Form-->
+
+                                <!-- Address -->
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <div class="content">
+                                            <p><span class="whyvrp">1.</span> Ring us on 88 22 33 66 22<br>
+                                                <span class="whyvrp">2.</span> Share us about your gated community
+                                                (Apartments, Row
+                                                Houses,Villa’s and much more)<br>
+                                                <span class="whyvrp">3.</span> Our team will get in touch shortly<br>
+                                                <span class="whyvrp">4.</span> Enjoy your Fresh Veggies and Fruits
+                                                Handpicking experience at
+                                                your gated community<br>
+
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-4 pr-lg-4">
+                                <div class="heading-area">
+                                    <h3>Micro Green Outlet on Kiosk</h3>
                                 </div>
-                                <div class="round_card_content">
-                                    <p>sundararaman ramasamy</p>
-                                    <p>Co Founder & Strategic Advisor <br> WILCO SOURCE, USA</p>
-                                </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv3.jpg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>Jaikumar K</p>
-                                    <p>Co Founder and CTO <br> IPPOPAY</p>
-                                </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv4.jpg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>prabhu r</p>
-                                    <p>Co Founder <br> M2P FINTECH</p>
-                                </div>
+                                <!--Contact Form-->
+
+                                <ul class="address-item">
+                                    <!--item-->
+                                    <li class="w-100 mb-4">
+                                        <div class="content">
+                                            <p><span class="whyvrp">1.</span> Supporting #Superwomen and making them
+                                                smile<br>
+                                                <span class="whyvrp">2.</span> India's First Micro Green Outlet on Kiosk
+                                                to sell Fresh Greens<br>
+                                                <span class="whyvrp">3.</span> Microgreens at Your Workplace /Gated
+                                                Community / Public<br>
+                                                <span class="whyvrp">4.</span> Ring us on 88 22 33 66 22 to know
+                                                more<br>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                            <!--map area-->
                         </div>
                     </div>
+                </section>
+                <!--privacy policy-->
+                <section id="detailed" class="pt-page pt-page-10" data-id="detailed">
+                    <div class="container">
+                        <div class="heading-area">
+                            <h6 class="sub-title main-color">Veg Route</h6>
+                            <h2 class="title">Privacy Policy</h2>
+                            <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
 
-                    <div class="round_investors_section">
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv5.jpg" alt="investor 1">
+                        </div>
+                        <div class="row align-items-lg-center">
+
+
+                            <!--Form area-->
+                            <div class="col-lg-12 pr-lg-12" style="text-align:justify;">
+                                <!--Contact Form-->
+                                <p><b>Personal identification information</b><br>
+                                    Personal identification information may be required by the site in order to develop
+                                    a user-friendly environment of the website. We may collect personal identification
+                                    information from users in different ways including, like Users visit our site, place
+                                    an order, fill out a form, Users may be asked for appropriate, name, email address,
+                                    mailing address, phone number. Users may visit our Site casually. We will collect
+                                    personal identification information from users only if they voluntarily submit such
+                                    information to us. Users can always refuse to supply personal identification
+                                    information anytime in the visit to our website.
+                                <p><b>Non-personal identification information</b><br>
+                                    Non-personal identification information may include the browser name, the type of
+                                    computer, and technical information about users. We may collect non-personal
+                                    identification information about Users whenever they interact with our Site.
+                                <p><b>Browser cookies</b><br>
+                                    We store cookies for improving our user experience. Users may choose to set their
+                                    web browser to refuse cookies or to alert you when cookies are being sent.
+                                <p><b>Protection of information</b><br>
+                                    We maintain a secure way to protect against unauthorized access, alteration,
+                                    disclosure, or destruction of your personal information, username, password,
+                                    transaction information, and data stored on our Site.
+                                <p><b>Policy acceptance</b><br>
+                                    By logging into our Site, you accept our privacy policy. Users can anytime
+                                    deactivate their account and thus declaring the condition that they no longer
+                                    bounded by our terms of the privacy policy.
+
+                                </p>
+
+                            </div>
+
+                            <!--map area-->
+                        </div>
+                    </div>
+                </section>
+                <!--Teams-->
+                <section id="ourinvestors" class="pt-page pt-page-11" data-id="ourinvestors">
+                    <div class="container">
+                        <div class="heading-area justify-content-center" style="text-align:center">
+                            <div class="cus_heading">
+
+                                <h2>Our Investors</h2>
+                                <p>Raised Seed Funding of $1.1 Million</p>
+                                <img src="personal/img/gline.png" style="margin-top: -40px;height: 28px;width: 360px;">
+                                <p>Led by VGROW Ventures</p>
+
+                            </div>
+
+                        </div>
+                        <div id="style-2" class="row align-items-lg-center">
+
+
+                            <div class="round_investors_section">
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv1.jpg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>mohan k</p>
+                                        <p>Co Founder and CEO <br> IPPOPAY</p>
+                                    </div>
                                 </div>
-                                <div class="round_card_content">
-                                    <p>prabu s</p>
-                                    <p>Chairman <br> SPK GROUPS</p>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv2.jpg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>sundararaman ramasamy</p>
+                                        <p>Co Founder & Strategic Advisor <br> WILCO SOURCE, USA</p>
+                                    </div>
+                                </div>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv3.jpg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>Jaikumar K</p>
+                                        <p>Co Founder and CTO <br> IPPOPAY</p>
+                                    </div>
+                                </div>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv4.jpg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>prabhu r</p>
+                                        <p>Co Founder <br> M2P FINTECH</p>
+                                    </div>
                                 </div>
                             </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv6.png" alt="investor 1">
+
+                            <div class="round_investors_section">
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv5.jpg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>prabu s</p>
+                                        <p>Chairman <br> SPK GROUPS</p>
+                                    </div>
                                 </div>
-                                <div class="round_card_content">
-                                    <p>omar bin brek</p>
-                                    <p>Founder <br> FOLOOSI, UAE</p>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv6.png" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>omar bin brek</p>
+                                        <p>Founder <br> FOLOOSI, UAE</p>
+                                    </div>
                                 </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv7.jpg" alt="investor 1">
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv7.jpg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>ravi shankar K</p>
+                                        <p>Chief Business Officer <br> XFORIA SOLUTIONS, USA <br> VENTURE PARTNER &
+                                            Investor</p>
+                                    </div>
                                 </div>
-                                <div class="round_card_content">
-                                    <p>ravi shankar K</p>
-                                    <p>Chief Business Officer <br> XFORIA SOLUTIONS, USA <br> VENTURE PARTNER & Investor</p>
-                                </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv8.jpeg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>abhishek raj pandey</p>
-                                    <p>Head - Commercial Operations <br> MAMA EARTH</p>
-                                </div>
-                        </div>
-                    </div>
-                    
-                    <div class="round_investors_section">
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv9.jpeg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>Hari T N</p>
-                                    <p>Co- Founder, <br> Artha School of Entrepreneurship,<br>Author & Angel Investor.</p>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv8.jpeg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>abhishek raj pandey</p>
+                                        <p>Head - Commercial Operations <br> MAMA EARTH</p>
+                                    </div>
                                 </div>
                             </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv10.jpeg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>Preetham Uthaiah</p>
-                                    <p>EVP Marketing & Strategy</p>
-                                </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv11.jpeg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>Kumar Chandramoulie</p>
-                                    <p>Chief Product & Innovation Officer, <br> Investor.</p>
-                                </div>
-                        </div>
-                        <div class="round_card_container">
-                                <div class="round_card_head">
-                                    <img src="gallery/inv12.jpeg" alt="investor 1">
-                                </div>
-                                <div class="round_card_content">
-                                    <p>Dinesh Kataria</p>
-                                    <p>Founder, <br> Brown Tree, India</p>
-                                </div>
-                        </div>
-                    </div>
 
-                            
-                        
-                    
-                    </div>
-            </section>
+                            <div class="round_investors_section">
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv9.jpeg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>Hari T N</p>
+                                        <p>Co- Founder, <br> Artha School of Entrepreneurship,<br>Author & Angel
+                                            Investor.</p>
+                                    </div>
+                                </div>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv10.jpeg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>Preetham Uthaiah</p>
+                                        <p>EVP Marketing & Strategy</p>
+                                    </div>
+                                </div>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv11.jpeg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>Kumar Chandramoulie</p>
+                                        <p>Chief Product & Innovation Officer, <br> Investor.</p>
+                                    </div>
+                                </div>
+                                <div class="round_card_container">
+                                    <div class="round_card_head">
+                                        <img src="gallery/inv12.jpeg" alt="investor 1">
+                                    </div>
+                                    <div class="round_card_content">
+                                        <p>Dinesh Kataria</p>
+                                        <p>Founder, <br> Brown Tree, India</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                </section>
+            </div>
+
+
+
+            <!-- End of Home Subpage -->
+
+
+
         </div>
-        
-        
+        <div class="mbbtn footer hidden-lg hidden-md hide-desktop"
+            style="position: fixed; width: 100%; right: 0px; bottom: 6px; background:transparent; padding-right: 10px;  z-index: 100;height:60px;">
+            <!--<div class="row" style="float: right;margin-right: -5px;">-->
+            <!--    <div class="fbl" style="width: 100%;float:right;text-align: center;background: transparent;height: 50px;padding-top: 8px;"><a href="tel:+918822336622" class="optional-btn"><i class="fa fa-phone"></i></a></div>-->
 
-        <!-- End of Home Subpage -->
 
-    
-            
-</div>
-<div class="mbbtn footer hidden-lg hidden-md hide-desktop" style="position: fixed; width: 100%; right: 0px; bottom: 6px; background:transparent; padding-right: 10px;  z-index: 100;height:60px;">
-                <!--<div class="row" style="float: right;margin-right: -5px;">-->
-                <!--    <div class="fbl" style="width: 100%;float:right;text-align: center;background: transparent;height: 50px;padding-top: 8px;"><a href="tel:+918822336622" class="optional-btn"><i class="fa fa-phone"></i></a></div>-->
-                    
-                    
-                    <!--<div class="fbr" style="width: 33.3%;float: left;text-align: center;background: white;height: 50px;padding-top: 8px;"><a href="event.php" class="optional-btn">c</a></div>-->
-                <!--</div>-->
-                <a href="tel:+918822336622"><img src="personal/img/call-btn.gif"></a>
-           </div>
+            <!--<div class="fbr" style="width: 33.3%;float: left;text-align: center;background: white;height: 50px;padding-top: 8px;"><a href="event.php" class="optional-btn">c</a></div>-->
+            <!--</div>-->
+            <a href="tel:+918822336622"><img src="personal/img/call-btn.gif"></a>
+        </div>
     </div>
-<!-- Site Main End -->
+    <!-- Site Main End -->
 
-        <!-- modal -->
-<div class="modal-overlay">
-  <div class="modal">
-    
-    <a class="close-modal">
-      <svg viewBox="0 0 20 20">
-        <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
-      </svg>
-    </a><!-- close modal -->
+    <!-- modal -->
+    <div class="modal-overlay">
+        <div class="modal">
 
-    <div class="modal-content">
+            <a class="close-modal">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#000000"
+                        d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z">
+                    </path>
+                </svg>
+            </a><!-- close modal -->
 
-    </div><!-- content -->
-    
-  </div><!-- modal -->
-</div><!-- overlay -->
-<!-- JavaScript -->
-<script src="vendor/js/bundle.min.js"></script>
-<!-- Plugin Js -->
-<script src="vendor/js/jquery.appear.js"></script>
-<script src="vendor/js/jquery.fancybox.min.js"></script>
-<script src="vendor/js/owl.carousel.min.js"></script>
-<script src="vendor/js/TweenMax.min.js"></script>
-<script src="vendor/js/jquery.cubeportfolio.min.js"></script>
-<!-- REVOLUTION JS FILES -->
-<script src="vendor/js/jquery.themepunch.tools.min.js"></script>
-<script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
-<!-- SLIDER REVOLUTION EXTENSIONS -->
-<script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
-<!-- google map -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJRG4KqGVNvAPY4UcVDLcLNXMXk2ktNfY"></script>
-<script src="personal/js/map.js"></script>
-<!-- custom script -->
-<script src="personal/js/page-transition.js"></script>
-<script src="vendor/js/contact_us.js"></script>
-<script src="personal/js/script.js"></script>
+            <div class="modal-content">
 
-<script>
-    function AppRedirect(app){
-        var ios = "https://apps.apple.com/in/app/veg-route/id1616448446";
-        var android = "https://play.google.com/store/apps/details?id=com.shrewd.vegroute";
-        console.log("called");
-        
-        if(app == 'android'){
-            window.location.href = android;
-        }else{
-            window.location.href = ios;
+            </div><!-- content -->
+
+        </div><!-- modal -->
+    </div><!-- overlay -->
+    <!-- JavaScript -->
+    <script src="vendor/js/bundle.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="vendor/js/jquery.appear.js"></script>
+    <script src="vendor/js/jquery.fancybox.min.js"></script>
+    <script src="vendor/js/owl.carousel.min.js"></script>
+    <script src="vendor/js/TweenMax.min.js"></script>
+    <script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJRG4KqGVNvAPY4UcVDLcLNXMXk2ktNfY"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="personal/js/map.js"></script>
+    <!-- custom script -->
+    <script src="personal/js/page-transition.js"></script>
+    <script src="vendor/js/contact_us.js"></script>
+    <script src="personal/js/script.js"></script>
+    <script src="personal/data/sitedata.js"></script>
+    <script>console.log(customer_review)
+        // LOAD CUSTOMER REVIEW
+        function load_customer_review() {
+
+
         }
-    }
-    
-var elements = $('.modal-overlay, .modal');
 
-$('.modalclick').click(function(){
-    elements.addClass('active');
-});
+    </script>
 
-$('.close-modal').click(function(){
-    elements.removeClass('active');
-});
+    <script>
+        function AppRedirect(app) {
+            var ios = "https://apps.apple.com/in/app/veg-route/id1616448446";
+            var android = "https://play.google.com/store/apps/details?id=com.shrewd.vegroute";
+            console.log("called");
 
-$(".modalclick").on('click', function(event){
-    elements.addClass('active');
-    console.log("element");
-});
+            if (app == 'android') {
+                window.location.href = android;
+            } else {
+                window.location.href = ios;
+            }
+        }
 
-</script>
+        var elements = $('.modal-overlay, .modal');
+
+        $('.modalclick').click(function () {
+            elements.addClass('active');
+        });
+
+        $('.close-modal').click(function () {
+            elements.removeClass('active');
+        });
+
+        $(".modalclick").on('click', function (event) {
+            elements.addClass('active');
+            console.log("element");
+        });
+
+    </script>
 
 </body>
+
 </html>

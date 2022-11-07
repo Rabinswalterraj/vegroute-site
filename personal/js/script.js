@@ -88,23 +88,27 @@ jQuery(function ($) {
     
     
       $("#owl-blog").owlCarousel({
+        center: true,
         items: 1,
         autoplay: 1500,
         smartSpeed: 1500,
         margin:10,
         loop: true,
-        dots: false,
+        dots: true,
         nav: true,
-        navContainer: "#client-nav",
+        navContainer: "#blog-nav",
         responsive: {
             991: {
-                items: 2,
+                items: 1,
+                autoWidth:true
             },
             600: {
                 items: 1,
+                autoWidth:true
             },
             320: {
                 items: 1,
+                autoWidth:true
             },
         }
     });
