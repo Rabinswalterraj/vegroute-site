@@ -964,7 +964,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 }
 
 .contact-form textarea.form-control {
-    min-height: 140px;
+    min-height: 100px;
     resize: none;
     margin-bottom: 0;
 }
