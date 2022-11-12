@@ -968,6 +968,14 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
     resize: none;
     margin-bottom: 0;
 }
+.bg-img-stretch{
+    background-image: url(https://vegroute.com/gallery/roadmap.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 
 .contact-form .form-group:nth-last-child(1){
     margin-bottom: 0;
